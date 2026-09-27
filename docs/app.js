@@ -11,7 +11,7 @@ function people(contributors = []) {
   return contributors.map(person => person.role ? `${person.name} (${person.role})` : person.name).join(", ");
 }
 
-function location(item) {
+function itemLocation(item) {
   return [item.stack && `Stack ${item.stack}`, item.shelf_row && `Row ${item.shelf_row}`, item.shelf_position].filter(Boolean).join(", ");
 }
 
@@ -51,7 +51,7 @@ function render() {
       <span class="spine ${(item.contents || []).length > 1 ? "multi" : ""}">${esc((item.media_category || "Item").slice(0,3).toUpperCase())}</span>
       <span><span class="result-title">${esc(item.title)}</span><span class="result-sub">${esc([people(item.contributors),item.publisher,item.publication_date].filter(Boolean).join(" · "))}</span><span class="result-meta">${(item.contents || []).length ? `${item.contents.length} indexed ${(item.contents || []).length === 1 ? "work" : "works"}` : ""}</span>${matches.map(work => `<span class="match">Matched: ${esc(work.title)}${work.page_start ? ` · p. ${esc(work.page_start)}` : ""}</span>`).join("")}</span>
       <span class="set">${esc([item.set_name,volume(item)].filter(Boolean).join(" · "))}</span>
-      <span class="location"><small>Location</small>${esc(location(item) || "Not assigned")}</span>
+      <span class="location"><small>Location</small>${esc(itemLocation(item) || "Not assigned")}</span>
       <span class="arrow">→</span>
     </button>`;
   }).join("");
@@ -73,7 +73,7 @@ function openDetails(index) {
     <div class="detail-grid">
       ${item.contributors?.length ? `<div class="detail-field"><small>Contributors</small>${esc(people(item.contributors))}</div>` : ""}
       ${fields.map(([key,label]) => `<div class="detail-field"><small>${label}</small>${esc(item[key])}</div>`).join("")}
-      <div class="detail-field"><small>Location</small>${esc(location(item) || "Not assigned")}</div>
+      <div class="detail-field"><small>Location</small>${esc(itemLocation(item) || "Not assigned")}</div>
       ${item.description ? `<div class="detail-field detail-description"><small>Description</small>${esc(item.description)}</div>` : ""}
     </div>
     ${(item.contents || []).length ? `<section class="contents"><h3>Contents</h3>${item.contents.map(work => `<div class="content"><strong>${esc(work.title)}</strong><span>${esc([work.work_type,people(work.contributors),work.publication_date,work.page_start && `p. ${work.page_start}${work.page_end && work.page_end !== work.page_start ? `–${work.page_end}` : ""}`].filter(Boolean).join(" · "))}</span></div>`).join("")}</section>` : ""}`;

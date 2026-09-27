@@ -85,7 +85,7 @@ Generate the public site with **Import & backup → Prepare public catalogue** i
 
 1. Create an empty public repository on GitHub. A public repository allows GitHub Pages on the free GitHub plan.
 2. Commit this project and push its `main` branch to that repository. Only `docs/catalogue.json` contains public catalogue data; `data/` remains local and ignored.
-3. In the GitHub repository, open **Settings → Pages** and set **Source** to **GitHub Actions**.
-4. The included `.github/workflows/pages.yml` workflow publishes the `docs/` folder. Its completed run displays the public URL.
+3. In the GitHub repository, open **Settings → Pages** and set **Source** to **Deploy from a branch**.
+4. Choose the `main` branch and `/docs` folder, then save. GitHub Pages publishes that folder at the repository's project-site URL.
 
 For later updates, regenerate the public site, review the changes to `docs/catalogue.json`, and commit and push them. Nothing is published until you choose to push it.
