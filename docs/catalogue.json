@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "published_at": "2026-09-27T17:28:09+00:00",
+  "published_at": "2026-09-27T18:06:23+00:00",
   "items": [
     {
       "title": "1,000 Places to See Before You Die",
@@ -66,6 +66,22 @@
       "contributors": [
         {
           "name": "Antonin Scalia",
+          "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
+      "title": "A Modest Proposal",
+      "subtitle": "For preventing the children of poor people in Ireland, from being a burden on their parents or country, and for making them beneficial to the publick",
+      "media_category": "Essay",
+      "item_type": "Single work",
+      "publication_date": "1729",
+      "language": "English",
+      "shelf_position": "Digital",
+      "contributors": [
+        {
+          "name": "Jonathan Swift",
           "role": "Author"
         }
       ],
@@ -316,6 +332,17 @@
       "contents": []
     },
     {
+      "title": "China and Pottery Marks",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "1920",
+      "publisher": "Gilman Collamore & Co.",
+      "language": "English",
+      "shelf_position": "Digital",
+      "contributors": [],
+      "contents": []
+    },
+    {
       "title": "Civil Procedure",
       "subtitle": "Doctrine, Practice, and Context",
       "media_category": "Book",
@@ -392,6 +419,22 @@
         },
         {
           "name": "Vikramaditya S. Khanna",
+          "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
+      "title": "Common Sense",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "1994",
+      "publisher": "Project Gutenberg",
+      "language": "English",
+      "shelf_position": "Digital",
+      "contributors": [
+        {
+          "name": "Thomas Paine",
           "role": "Author"
         }
       ],
@@ -689,6 +732,23 @@
       "contents": []
     },
     {
+      "title": "Great Pianists on Piano Playing",
+      "subtitle": "Study talks with foremost virtuosos",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "1913",
+      "publisher": "THEO. PRESSER CO.",
+      "language": "English",
+      "shelf_position": "Digital",
+      "contributors": [
+        {
+          "name": "James Francis Cooke",
+          "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
       "title": "Illustrated Reference Book of Art",
       "media_category": "Book",
       "item_type": "Single work",
@@ -757,6 +817,22 @@
       "contents": []
     },
     {
+      "title": "Music Notation and Terminology",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "1914",
+      "publisher": "The A. S. Barnes Company",
+      "language": "English",
+      "shelf_position": "Digital",
+      "contributors": [
+        {
+          "name": "Karl Wilson Gehrkens",
+          "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
       "title": "Organizational Compliance and Ethics",
       "media_category": "Book",
       "item_type": "Reference",
@@ -819,6 +895,22 @@
         },
         {
           "name": "Robert T. Fancher",
+          "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
+      "title": "Porcelain",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "1904",
+      "publisher": "Methuen and Co.",
+      "language": "English",
+      "shelf_position": "Digital",
+      "contributors": [
+        {
+          "name": "Edward Dillon",
           "role": "Author"
         }
       ],
@@ -1157,6 +1249,22 @@
       "contents": []
     },
     {
+      "title": "The Book of Tea",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "1997",
+      "publisher": "Project Gutenberg",
+      "language": "English",
+      "shelf_position": "Digital",
+      "contributors": [
+        {
+          "name": "Kakuzo Okakura",
+          "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
       "title": "The Book of Unusual Knowledge",
       "media_category": "Book",
       "item_type": "Single work",
@@ -1198,6 +1306,31 @@
       "stack": "3",
       "shelf_row": "1",
       "contributors": [],
+      "contents": []
+    },
+    {
+      "title": "The Handbook to English Heraldry",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "1914",
+      "publisher": "Ballantyne, Hanson & Co.",
+      "edition": "11",
+      "language": "English",
+      "shelf_position": "Digital",
+      "contributors": [
+        {
+          "name": "Charles Boutell",
+          "role": "Author"
+        },
+        {
+          "name": "Arthur Charles Fox-Davies",
+          "role": "Editor"
+        },
+        {
+          "name": "R. B. Utting",
+          "role": "Illustrator"
+        }
+      ],
       "contents": []
     },
     {
