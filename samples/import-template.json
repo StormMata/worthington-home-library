@@ -1,0 +1,33 @@
+{
+  "items": [
+    {
+      "title": "Collected Short Works",
+      "media_category": "Book",
+      "item_type": "Anthology",
+      "publication_date": "1998",
+      "publisher": "Example Press",
+      "set_name": "Collected Works",
+      "volume_number": 2,
+      "stack": "1",
+      "shelf_row": "3",
+      "contributors": [
+        { "name": "Avery Editor", "role": "Editor" }
+      ],
+      "contents": [
+        {
+          "title": "An Example Story",
+          "work_type": "Short story",
+          "page_start": "15",
+          "page_end": "28",
+          "contributors": [
+            { "name": "Rowan Writer", "role": "Author" }
+          ]
+        }
+      ],
+      "metadata": {
+        "condition": "Good",
+        "acquired_from": "Used bookshop"
+      }
+    }
+  ]
+}

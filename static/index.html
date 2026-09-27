@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f0e6">
+  <title>Shelf Index</title>
+  <meta name="description" content="A private, local catalogue for a personal physical media library.">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="masthead">
+    <button class="wordmark" data-view="catalogue" aria-label="Open catalogue">
+      <span>Home library catalogue</span>
+    </button>
+    <nav aria-label="Primary navigation">
+      <button class="nav-button active" data-view="catalogue">Catalogue</button>
+      <button class="nav-button" data-view="import">Import & backup</button>
+    </nav>
+    <button id="new-item" class="button button-primary"><span aria-hidden="true">＋</span> Add item</button>
+  </header>
+
+  <main>
+    <section id="catalogue-view" class="view active">
+      <div class="hero">
+        <p class="eyebrow">8 Worthington home library</p>
+        <h1>Search and manage catalogue</h1>
+        <div class="search-shell">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <label class="sr-only" for="search">Search your catalogue</label>
+          <input id="search" type="search" autocomplete="off" placeholder="Search titles, poems, authors, editors…">
+          <kbd>⌘ K</kbd>
+        </div>
+        <div class="filters" aria-label="Search filters">
+          <select id="filter-category" aria-label="Filter by media category"><option value="">All media</option></select>
+          <select id="filter-stack" aria-label="Filter by stack"><option value="">All stacks</option></select>
+          <select id="filter-row" aria-label="Filter by row"><option value="">All rows</option></select>
+          <button id="clear-filters" class="text-button">Clear filters</button>
+        </div>
+      </div>
+
+      <div class="catalogue-bar">
+        <div><span id="result-count">0 items</span><span class="dot">•</span><span id="content-count">0 indexed contents</span></div>
+        <span id="search-status" aria-live="polite"></span>
+      </div>
+      <div id="results" class="results" aria-live="polite"></div>
+      <div id="empty-state" class="empty-state" hidden>
+        <div class="empty-glyph">Aa</div>
+        <h2>Your shelves are ready</h2>
+        <p>Add your first physical item, or import a prepared CSV or JSON file.</p>
+        <button class="button button-primary" data-action="new">Add the first item</button>
+      </div>
+    </section>
+
+    <section id="import-view" class="view utility-page">
+      <div class="page-heading">
+        <p class="eyebrow">Move data in and out</p>
+        <h1>Import & backup</h1>
+        <p>Preview a batch before adding it. Keep independent copies of your complete catalogue.</p>
+      </div>
+      <div class="utility-grid">
+        <article class="panel">
+          <span class="panel-number">01</span>
+          <h2>Batch import</h2>
+          <p>Choose a JSON or CSV file. Nothing is saved until you review the preview and confirm.</p>
+          <label class="file-drop" for="import-file">
+            <strong>Choose a file</strong>
+            <span>JSON or CSV, up to 20 MB</span>
+            <input id="import-file" type="file" accept=".json,.csv,application/json,text/csv">
+          </label>
+          <div id="import-preview" class="import-preview" hidden></div>
+        </article>
+        <article class="panel">
+          <span class="panel-number">02</span>
+          <h2>Back up everything</h2>
+          <p>JSON is human-readable and easy to re-import. SQLite is a complete working copy of the database.</p>
+          <div class="button-stack">
+            <a class="button button-secondary" href="/api/export.json" download>Export as JSON</a>
+            <a class="button button-secondary" href="/api/backup" download>Download SQLite backup</a>
+          </div>
+          <p class="fine-print">Tip: periodically copy the <code>data</code> folder to an external drive.</p>
+        </article>
+        <article class="panel">
+          <span class="panel-number">03</span>
+          <h2>Prepare public catalogue</h2>
+          <p>Generate the read-only GitHub Pages site from approved public fields. Notes, custom metadata, timestamps, and editing tools are always excluded.</p>
+          <button class="button button-secondary" id="generate-public-site">Generate public site</button>
+          <div id="public-publish-status" class="publish-status" hidden></div>
+        </article>
+        <article class="panel panel-wide">
+          <span class="panel-number">04</span>
+          <h2>CSV column guide</h2>
+          <p>Use one row per physical item. For anthologies, repeat the same <code>record_key</code> and put one contained work on each row.</p>
+          <div class="code-table">
+            <code>record_key</code><span>Groups anthology rows</span>
+            <code>title</code><span>Physical item title (required)</span>
+            <code>contributors</code><span><em>Author: Name; Editor: Name</em></span>
+            <code>content_title</code><span>Poem, story, essay, or composition title</span>
+            <code>content_contributors</code><span>Contributors to that specific work</span>
+            <code>media_category</code><span>Book, sheet music, magazine, etc.</span>
+            <code>stack / shelf_row</code><span>Physical location</span>
+            <code>meta_anything</code><span>Creates a flexible metadata field</span>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="editor-dialog">
+    <form id="item-form" method="dialog">
+      <div class="dialog-head">
+        <div>
+          <p class="eyebrow" id="editor-kicker">New catalogue record</p>
+          <h2 id="editor-title">Add an item</h2>
+        </div>
+        <button type="button" class="icon-button" data-action="close" aria-label="Close">×</button>
+      </div>
+      <div class="dialog-body">
+        <input type="hidden" name="id">
+        <section class="form-section">
+          <div class="section-heading"><span>01</span><h3>The physical item</h3></div>
+          <div class="form-grid">
+            <label class="span-2"><span>Title <b>*</b></span><input name="title" required autofocus></label>
+            <label><span>Subtitle</span><input name="subtitle"></label>
+            <label><span>Media category</span><input name="media_category" list="category-list" value="Book"><datalist id="category-list"></datalist></label>
+            <label><span>Record type</span><select name="item_type"><option>Single work</option><option>Anthology</option><option>Collection</option><option>Reference</option><option>Other</option></select></label>
+            <label><span>Publication date</span><input name="publication_date" placeholder="1984 or Spring 1984"></label>
+            <label><span>Publisher</span><input name="publisher"></label>
+            <label><span>Edition</span><input name="edition"></label>
+            <div class="form-field">
+              <label for="identifier"><span>ISBN / identifier</span></label>
+              <div class="input-action">
+                <input id="identifier" name="identifier" placeholder="ISBN-10 or ISBN-13">
+                <button type="button" id="lookup-isbn" class="field-button">Look up</button>
+              </div>
+            </div>
+            <label><span>Language</span><input name="language"></label>
+            <label class="span-2"><span>Description</span><textarea name="description" rows="2"></textarea></label>
+            <div id="isbn-lookup-result" class="isbn-lookup span-2" hidden aria-live="polite"></div>
+          </div>
+        </section>
+
+        <section class="form-section">
+          <div class="section-heading"><span>02</span><h3>Contributors</h3></div>
+          <div id="item-contributors" class="repeat-list"></div>
+          <button type="button" class="add-row" data-action="add-contributor">＋ Add author, editor, or other contributor</button>
+        </section>
+
+        <section class="form-section">
+          <div class="section-heading"><span>03</span><h3>Set & shelf location</h3></div>
+          <div class="form-grid location-grid">
+            <label class="span-2"><span>Set / series name</span><input name="set_name" placeholder="The Complete Works"></label>
+            <label><span>Volume number</span><input name="volume_number" type="number" step="any" min="0"></label>
+            <label><span>Volume label</span><input name="volume_label" placeholder="Volume II or A–F"></label>
+            <label><span>Stack</span><input name="stack" placeholder="1"></label>
+            <label><span>Row</span><input name="shelf_row" placeholder="3"></label>
+            <label class="span-2"><span>Position / location note</span><input name="shelf_position" placeholder="Left side, behind glass, box 2…"></label>
+          </div>
+        </section>
+
+        <section class="form-section">
+          <div class="section-heading"><span>04</span><h3>Contained works</h3></div>
+          <p class="section-help">Add each story, poem, essay, score, or other work you want to find by search.</p>
+          <div id="contents-list" class="contents-list"></div>
+          <button type="button" class="add-row" data-action="add-content">＋ Add a contained work</button>
+        </section>
+
+        <section class="form-section">
+          <div class="section-heading"><span>05</span><h3>Notes & custom fields</h3></div>
+          <label><span>Private notes</span><textarea name="notes" rows="3"></textarea></label>
+          <div id="metadata-list" class="repeat-list metadata-list"></div>
+          <button type="button" class="add-row" data-action="add-metadata">＋ Add a custom field</button>
+        </section>
+      </div>
+      <div class="dialog-actions">
+        <button type="button" id="delete-item" class="button button-danger" hidden>Delete</button>
+        <span class="spacer"></span>
+        <button type="button" class="button button-quiet" data-action="close">Cancel</button>
+        <button type="submit" class="button button-primary">Save item</button>
+      </div>
+    </form>
+  </dialog>
+
+  <template id="contributor-template">
+    <div class="repeat-row contributor-row">
+      <input data-field="name" placeholder="Name" aria-label="Contributor name">
+      <input data-field="role" placeholder="Role, e.g. Author" aria-label="Contributor role">
+      <button type="button" class="remove-row" aria-label="Remove contributor">×</button>
+    </div>
+  </template>
+  <template id="metadata-template">
+    <div class="repeat-row metadata-row">
+      <input data-field="key" placeholder="Field name" aria-label="Custom field name">
+      <input data-field="value" placeholder="Value" aria-label="Custom field value">
+      <button type="button" class="remove-row" aria-label="Remove custom field">×</button>
+    </div>
+  </template>
+  <template id="content-template">
+    <article class="content-editor">
+      <div class="content-editor-head"><strong>Contained work</strong><button type="button" class="remove-content">Remove</button></div>
+      <div class="form-grid">
+        <label class="span-2"><span>Title <b>*</b></span><input data-field="title" placeholder="Title of poem, story, essay…"></label>
+        <label><span>Type</span><input data-field="work_type" placeholder="Poem, Essay, Story…"></label>
+        <label><span>Contributor</span><input data-field="contributor_name" placeholder="Author or creator"></label>
+        <label><span>Contributor role</span><input data-field="contributor_role" value="Author"></label>
+        <label><span>Page from</span><input data-field="page_start"></label>
+        <label><span>Page to</span><input data-field="page_end"></label>
+        <label class="span-2"><span>Notes</span><input data-field="notes"></label>
+      </div>
+    </article>
+  </template>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="/app.js" defer></script>
+</body>
+</html>

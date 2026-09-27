@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f0e6">
+  <title>8 Worthington Home Library</title>
+  <meta name="description" content="Browse the public catalogue of the 8 Worthington home library.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="masthead">
+    <a class="wordmark" href="./">Home library catalogue</a>
+    <span class="read-only">Public · Read only</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">8 Worthington home library</p>
+      <h1>Browse the catalogue</h1>
+      <div class="search-shell">
+        <span class="search-icon" aria-hidden="true">⌕</span>
+        <label class="sr-only" for="search">Search the public catalogue</label>
+        <input id="search" type="search" autocomplete="off" placeholder="Search titles, works, authors, publishers…">
+      </div>
+      <div class="filters">
+        <select id="category" aria-label="Filter by media category"><option value="">All media</option></select>
+        <select id="stack" aria-label="Filter by stack"><option value="">All stacks</option></select>
+        <select id="row" aria-label="Filter by row"><option value="">All rows</option></select>
+        <button id="clear" class="text-button">Clear filters</button>
+      </div>
+    </section>
+
+    <section class="catalogue" aria-labelledby="catalogue-heading">
+      <div class="catalogue-bar">
+        <h2 id="catalogue-heading">Catalogue</h2>
+        <span id="count" aria-live="polite">Loading…</span>
+      </div>
+      <div id="results" class="results"></div>
+      <div id="empty" class="empty" hidden><h2>No matching items</h2><p>Try fewer search terms or clear a filter.</p></div>
+    </section>
+  </main>
+
+  <dialog id="details">
+    <div class="dialog-head">
+      <div><p class="eyebrow" id="detail-category"></p><h2 id="detail-title"></h2></div>
+      <button id="close-details" aria-label="Close">×</button>
+    </div>
+    <div id="detail-body" class="dialog-body"></div>
+  </dialog>
+
+  <footer><span>Public catalogue · Read only</span><span id="published"></span></footer>
+  <script src="app.js" defer></script>
+</body>
+</html>
