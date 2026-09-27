@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "published_at": "2026-09-27T14:11:44+00:00",
+  "published_at": "2026-09-27T17:28:09+00:00",
   "items": [
     {
       "title": "1,000 Places to See Before You Die",
@@ -506,6 +506,27 @@
         {
           "name": "Steven L. Feinberg",
           "role": "Editor"
+        }
+      ],
+      "contents": []
+    },
+    {
+      "title": "Critique of judgment",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "1987",
+      "publisher": "Hackett Pub. Co.",
+      "identifier": "0872200264",
+      "language": "English, German",
+      "shelf_position": "Digital",
+      "contributors": [
+        {
+          "name": "Immanuel Kant",
+          "role": "Author"
+        },
+        {
+          "name": "Werner S. Pluhar",
+          "role": "Translator"
         }
       ],
       "contents": []
