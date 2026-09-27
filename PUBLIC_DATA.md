@@ -19,6 +19,7 @@ The public GitHub Pages site is generated from an explicit allowlist. Adding a n
 - ISBN lookup cache and fetch timestamps
 - Import previews or source files
 - Backups or the SQLite database
+- Digital files, file paths, and private file notes
 - Editing, deletion, lookup, import, export, or backup endpoints
 
 The enforced field lists are `PUBLIC_ITEM_FIELDS` and `PUBLIC_CONTENT_FIELDS` in `app.py`. Automated tests fail if excluded sample data reaches the public export.

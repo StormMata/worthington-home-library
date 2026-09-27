@@ -97,12 +97,27 @@ class CatalogueTests(unittest.TestCase):
         self.assertEqual("Alex Reader", records[0]["contributors"][0]["name"])
 
     def test_json_export_is_reimportable(self):
-        app.save_item({"title": "One Story", "metadata": {"provenance": "gift"}})
+        app.save_item({
+            "title": "One Story",
+            "metadata": {"provenance": "gift"},
+            "digital_files": [{"label": "Scan", "relative_path": "one-story/scan.pdf"}],
+        })
         exported = app.export_records()
         valid, errors = app.validate_import(json.loads(json.dumps(exported)))
 
         self.assertEqual(1, len(valid))
         self.assertEqual([], errors)
+        self.assertEqual("one-story/scan.pdf", exported[0]["digital_files"][0]["relative_path"])
+
+    def test_digital_files_are_searchable_and_paths_are_safe(self):
+        item_id = app.save_item({
+            "title": "Old Book",
+            "digital_files": [{"label": "Preservation scan", "relative_path": "old-books/old-book.pdf"}],
+        })
+
+        self.assertEqual(item_id, app.search_items("preservation")[0]["id"])
+        with self.assertRaisesRegex(ValueError, "inside digital_library"):
+            app.save_item({"title": "Unsafe", "digital_files": [{"relative_path": "../private.pdf"}]})
 
     def test_isbn_validation_accepts_ten_and_thirteen_digit_formats(self):
         self.assertEqual("0140328726", app.normalize_isbn("0-14-032872-6"))
@@ -148,6 +163,7 @@ class CatalogueTests(unittest.TestCase):
             "shelf_position": "Right side",
             "notes": "private item note",
             "metadata": {"price_paid": "$45", "provenance": "private"},
+            "digital_files": [{"label": "Private scan", "relative_path": "private/public-book.pdf", "notes": "private file note"}],
             "contributors": [{"name": "Visible Author", "role": "Author"}],
             "contents": [{
                 "title": "Visible Essay", "page_start": "12", "notes": "private content note",
@@ -162,7 +178,7 @@ class CatalogueTests(unittest.TestCase):
         self.assertEqual("Right side", record["shelf_position"])
         self.assertEqual("Visible Author", record["contributors"][0]["name"])
         self.assertEqual("12", record["contents"][0]["page_start"])
-        for forbidden in ("notes", "metadata", "created_at", "updated_at", "private item note", "$45", "private content note"):
+        for forbidden in ("notes", "metadata", "digital_files", "relative_path", "private scan", "private file note", "created_at", "updated_at", "private item note", "$45", "private content note"):
             self.assertNotIn(forbidden, serialized)
 
         result = app.build_public_site()

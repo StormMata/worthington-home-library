@@ -30,6 +30,8 @@ The database uses SQLite's write-ahead log while Shelf Index is running. For a c
 
 The JSON export is human-readable and can be imported into a fresh copy of Shelf Index. Keep periodic backups somewhere outside this folder, such as an external drive.
 
+Digital scans and ebooks live in `digital_library/`. An item may link to any number of files there, using paths relative to that directory. The files are deliberately excluded from Git, GitHub Pages, and SQLite backups; back up `digital_library/` separately. File references are retained in JSON exports so they reconnect after the files are restored to the same relative paths.
+
 ## Catalogue structure
 
 - A **physical item** is the book, score, magazine, disc set, or other object on your shelf.
@@ -37,6 +39,7 @@ The JSON export is human-readable and can be imported into a fresh copy of Shelf
 - Contributors can have roles such as Author, Editor, Translator, Composer, or Illustrator.
 - Set name, volume number, stack, row, and an optional position describe how an item belongs and where it lives.
 - Custom fields hold metadata that does not fit the standard fields.
+- Digital-file links connect a record to scans stored privately in `digital_library/`.
 
 Searching for a contained work or its contributor returns the physical item and shelf location needed to retrieve it.
 
@@ -77,7 +80,7 @@ Shelf Index can generate a separate static site for GitHub Pages. The public sit
 - Contained-work titles, contributors, types, dates, languages, sequence, and page ranges
 - Stack, row, and shelf-position location
 
-It always excludes private notes, custom metadata, internal database IDs, timestamps, import and backup tools, ISBN lookup caches, and every editing or deletion capability. The SQLite database is excluded from Git by [`.gitignore`](.gitignore).
+It always excludes private notes, custom metadata, digital files and their paths, internal database IDs, timestamps, import and backup tools, ISBN lookup caches, and every editing or deletion capability. The SQLite database and digital scans are excluded from Git by [`.gitignore`](.gitignore).
 
 Generate the public site with **Import & backup → Prepare public catalogue** in the local application, or double-click **`publish.command`**. The generated files appear in `docs/` and contain no server-side code.
 

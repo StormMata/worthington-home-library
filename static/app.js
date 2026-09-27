@@ -49,6 +49,18 @@ function addContent(data = {}) {
     contributor_role: contributor.role || "Author",
   });
 }
+function addDigitalFile(data = {}) {
+  const node = addTemplate("#digital-file-template", "#digital-files-list", data);
+  const openLink = $(".digital-file-open", node);
+  const missing = $(".digital-file-missing", node);
+  if (data.url && data.exists) {
+    openLink.href = data.url;
+    openLink.hidden = false;
+  } else if (data.relative_path && data.exists === false) {
+    missing.hidden = false;
+  }
+  return node;
+}
 
 function switchView(name) {
   $$(".view").forEach(el => el.classList.toggle("active", el.id === `${name}-view`));
@@ -106,7 +118,7 @@ function renderResults(items) {
       <span>
         <span class="result-title">${escapeHtml(item.title)}</span>
         <span class="result-sub">${escapeHtml([item.contributors, item.publisher, item.publication_date].filter(Boolean).join(" · "))}</span>
-        <span class="result-meta">${item.content_count ? `${item.content_count} indexed ${item.content_count === 1 ? "work" : "works"}` : "No contained works indexed"}</span>
+        <span class="result-meta">${item.content_count ? `${item.content_count} indexed ${item.content_count === 1 ? "work" : "works"}` : "No contained works indexed"}${item.digital_file_count ? ` · ${item.digital_file_count} digital ${item.digital_file_count === 1 ? "file" : "files"}` : ""}</span>
         ${(item.matched_contents || []).map(match => `<span class="content-match"><b>Matched:</b> ${escapeHtml(match.title)}${match.contributors ? ` — ${escapeHtml(match.contributors)}` : ""}${match.page_start ? ` · p. ${escapeHtml(match.page_start)}${match.page_end && match.page_end !== match.page_start ? `–${escapeHtml(match.page_end)}` : ""}` : ""}</span>`).join("")}
       </span>
       <span class="result-set">${escapeHtml([item.set_name, item.volume_display].filter(Boolean).join(" · "))}</span>
@@ -126,6 +138,7 @@ function resetEditor() {
   form.elements.media_category.value = "Book";
   $("#item-contributors").innerHTML = "";
   $("#contents-list").innerHTML = "";
+  $("#digital-files-list").innerHTML = "";
   $("#metadata-list").innerHTML = "";
   $("#isbn-lookup-result").hidden = true;
   $("#isbn-lookup-result").innerHTML = "";
@@ -238,6 +251,8 @@ async function editItem(id) {
   item.contributors.forEach(addContributor);
   $("#contents-list").innerHTML = "";
   item.contents.forEach(addContent);
+  $("#digital-files-list").innerHTML = "";
+  (item.digital_files || []).forEach(addDigitalFile);
   Object.entries(item.metadata || {}).forEach(([key, value]) => addMetadata(key, typeof value === "string" ? value : JSON.stringify(value)));
   $("#editor-kicker").textContent = item.media_category || "Catalogue record";
   $("#editor-title").textContent = "Edit item";
@@ -258,6 +273,7 @@ function formPayload() {
     sequence_no: index + 1,
     contributors: content.contributor_name ? [{ name: content.contributor_name, role: content.contributor_role || "Author" }] : [],
   }));
+  data.digital_files = rowsToData("#digital-files-list .digital-file-row").filter(file => file.relative_path);
   data.metadata = Object.fromEntries(rowsToData("#metadata-list .metadata-row").filter(m => m.key).map(m => [m.key, m.value]));
   return data;
 }
@@ -339,11 +355,14 @@ document.addEventListener("click", event => {
   if (event.target.closest("[data-action='close']")) dialog.close();
   if (event.target.closest("[data-action='add-contributor']")) addContributor({ role: "Author" });
   if (event.target.closest("[data-action='add-content']")) addContent();
+  if (event.target.closest("[data-action='add-digital-file']")) addDigitalFile();
   if (event.target.closest("[data-action='add-metadata']")) addMetadata();
   const removeRow = event.target.closest(".remove-row");
   if (removeRow) removeRow.closest(".repeat-row").remove();
   const removeContent = event.target.closest(".remove-content");
   if (removeContent) removeContent.closest(".content-editor").remove();
+  const removeDigitalFile = event.target.closest(".remove-digital-file");
+  if (removeDigitalFile) removeDigitalFile.closest(".digital-file-row").remove();
   const card = event.target.closest(".result-card");
   if (card) editItem(card.dataset.id).catch(error => toast(error.message));
   if (event.target.closest("#confirm-import")) commitImport();

@@ -19,7 +19,7 @@ from datetime import datetime, timezone
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.error import HTTPError, URLError
-from urllib.parse import parse_qs, urlencode, urlparse
+from urllib.parse import parse_qs, quote, unquote, urlencode, urlparse
 from urllib.request import Request, urlopen
 
 
@@ -28,6 +28,7 @@ STATIC_DIR = ROOT / "static"
 PUBLIC_SITE_DIR = ROOT / "public_site"
 PAGES_DIR = ROOT / "docs"
 DATA_DIR = ROOT / "data"
+DIGITAL_LIBRARY_DIR = ROOT / "digital_library"
 DB_PATH = Path(os.environ.get("SHELF_INDEX_DB", DATA_DIR / "catalogue.sqlite3"))
 HOST = os.environ.get("SHELF_INDEX_HOST", "127.0.0.1")
 PORT = int(os.environ.get("SHELF_INDEX_PORT", "8765"))
@@ -90,6 +91,16 @@ CREATE TABLE IF NOT EXISTS item_contents (
     PRIMARY KEY (item_id, work_id)
 );
 
+CREATE TABLE IF NOT EXISTS digital_files (
+    id INTEGER PRIMARY KEY,
+    item_id INTEGER NOT NULL REFERENCES items(id) ON DELETE CASCADE,
+    label TEXT,
+    relative_path TEXT NOT NULL,
+    notes TEXT,
+    sequence_no INTEGER,
+    UNIQUE (item_id, relative_path)
+);
+
 CREATE TABLE IF NOT EXISTS people (
     id INTEGER PRIMARY KEY,
     name TEXT NOT NULL COLLATE NOCASE UNIQUE
@@ -108,6 +119,7 @@ CREATE INDEX IF NOT EXISTS idx_items_location ON items(stack, shelf_row);
 CREATE INDEX IF NOT EXISTS idx_items_category ON items(media_category);
 CREATE INDEX IF NOT EXISTS idx_items_set ON items(set_name, volume_number);
 CREATE INDEX IF NOT EXISTS idx_contents_item ON item_contents(item_id, sequence_no);
+CREATE INDEX IF NOT EXISTS idx_digital_files_item ON digital_files(item_id, sequence_no);
 CREATE INDEX IF NOT EXISTS idx_credits_item ON credits(item_id);
 CREATE INDEX IF NOT EXISTS idx_credits_work ON credits(work_id);
 
@@ -138,6 +150,7 @@ def connect() -> sqlite3.Connection:
 
 
 def init_db() -> None:
+    DIGITAL_LIBRARY_DIR.mkdir(parents=True, exist_ok=True)
     with connect() as db:
         db.executescript(SCHEMA)
 
@@ -156,6 +169,41 @@ def clean_number(value):
         return float(value)
     except (TypeError, ValueError):
         return None
+
+
+def normalize_digital_path(value: str) -> str:
+    """Return a safe path relative to the project's digital library."""
+    path = (clean_text(value) or "").replace("\\", "/")
+    if path.startswith("/") or re.match(r"^[A-Za-z]:/", path):
+        raise ValueError("Digital file paths must stay inside digital_library")
+    while path.startswith("./"):
+        path = path[2:]
+    path = re.sub(r"/+", "/", path)
+    if not path or any(part in ("", ".", "..") for part in path.split("/")):
+        raise ValueError("Digital file paths must stay inside digital_library")
+    return path
+
+
+def digital_files_value(value) -> list[dict]:
+    if not value:
+        return []
+    if not isinstance(value, list):
+        raise ValueError("Digital files must be a list")
+    result = []
+    seen = set()
+    for entry in value:
+        if not isinstance(entry, dict) or not clean_text(entry.get("relative_path")):
+            continue
+        relative_path = normalize_digital_path(entry["relative_path"])
+        if relative_path in seen:
+            continue
+        seen.add(relative_path)
+        result.append({
+            "relative_path": relative_path,
+            "label": clean_text(entry.get("label")),
+            "notes": clean_text(entry.get("notes")),
+        })
+    return result
 
 
 def normalize_isbn(value: str) -> str:
@@ -376,6 +424,8 @@ def rebuild_search(db: sqlite3.Connection, item_id: int) -> None:
         parts.append(item_people)
     for row in rows:
         parts.extend(str(value) for value in dict(row).values() if value is not None)
+    for row in db.execute("SELECT label, relative_path, notes FROM digital_files WHERE item_id=?", (item_id,)):
+        parts.extend(str(value) for value in row if value is not None)
     db.execute("INSERT INTO catalog_fts(item_id, searchable) VALUES (?, ?)", (item_id, " ".join(parts)))
 
 
@@ -403,6 +453,15 @@ def get_item(db: sqlite3.Connection, item_id: int) -> dict | None:
     item["contributors"] = [dict(r) for r in db.execute(
         "SELECT p.name, c.role FROM credits c JOIN people p ON p.id=c.person_id WHERE c.item_id=? ORDER BY c.id", (item_id,)
     )]
+    item["digital_files"] = []
+    for row in db.execute(
+        "SELECT label, relative_path, notes, sequence_no FROM digital_files WHERE item_id=? ORDER BY COALESCE(sequence_no, 999999), id",
+        (item_id,),
+    ):
+        digital_file = dict(row)
+        digital_file["exists"] = (DIGITAL_LIBRARY_DIR / digital_file["relative_path"]).is_file()
+        digital_file["url"] = "/digital/" + quote(digital_file["relative_path"], safe="/")
+        item["digital_files"].append(digital_file)
     contents = []
     for work in db.execute(
         """
@@ -458,6 +517,12 @@ def save_item(payload: dict, item_id: int | None = None) -> int:
             for work_id in old_work_ids:
                 db.execute("DELETE FROM works WHERE id=?", (work_id,))
         set_credits(db, item_id=item_id, contributors=payload.get("contributors"))
+        db.execute("DELETE FROM digital_files WHERE item_id=?", (item_id,))
+        for index, digital_file in enumerate(digital_files_value(payload.get("digital_files")), start=1):
+            db.execute(
+                "INSERT INTO digital_files(item_id, label, relative_path, notes, sequence_no) VALUES (?, ?, ?, ?, ?)",
+                (item_id, digital_file["label"], digital_file["relative_path"], digital_file["notes"], index),
+            )
         for index, content in enumerate(payload.get("contents") or [], start=1):
             content_title = clean_text(content.get("title"))
             if not content_title:
@@ -502,7 +567,8 @@ def search_items(query: str = "", category: str = "", stack: str = "", row: str 
     sql = f"""
         SELECT i.*{rank},
           (SELECT group_concat(p.name, ', ') FROM credits c JOIN people p ON p.id=c.person_id WHERE c.item_id=i.id) contributors,
-          (SELECT count(*) FROM item_contents ic WHERE ic.item_id=i.id) content_count
+          (SELECT count(*) FROM item_contents ic WHERE ic.item_id=i.id) content_count,
+          (SELECT count(*) FROM digital_files df WHERE df.item_id=i.id) digital_file_count
         FROM items i {joins} {where} ORDER BY {order} LIMIT 250
     """
     with connect() as db:
@@ -573,6 +639,13 @@ def parse_import(payload: dict) -> list[dict]:
                     key[5:]: value for key, value in row.items() if key.startswith("meta_") and clean_text(value)
                 }
                 grouped[key]["contents"] = []
+                grouped[key]["digital_files"] = []
+            if clean_text(row.get("digital_file")):
+                grouped[key]["digital_files"].append({
+                    "relative_path": row.get("digital_file"),
+                    "label": row.get("digital_file_label"),
+                    "notes": row.get("digital_file_notes"),
+                })
             if clean_text(row.get("content_title")):
                 grouped[key]["contents"].append({
                     "title": row.get("content_title"),
@@ -601,7 +674,12 @@ def validate_import(records: list[dict]) -> tuple[list[dict], list[dict]]:
 def export_records() -> list[dict]:
     with connect() as db:
         ids = [r[0] for r in db.execute("SELECT id FROM items ORDER BY title COLLATE NOCASE")]
-        return [get_item(db, item_id) for item_id in ids]
+        records = [get_item(db, item_id) for item_id in ids]
+        for record in records:
+            for digital_file in record.get("digital_files") or []:
+                digital_file.pop("exists", None)
+                digital_file.pop("url", None)
+        return records
 
 
 PUBLIC_ITEM_FIELDS = (
@@ -719,6 +797,9 @@ class Handler(BaseHTTPRequestHandler):
             if path == "/api/backup":
                 self.backup_database()
                 return
+            if path.startswith("/digital/"):
+                self.serve_digital(path[len("/digital/"):])
+                return
             self.serve_static(path)
         except ValueError as exc:
             self.send_error_json(exc, 400)
@@ -819,6 +900,24 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header("Content-Length", str(len(body)))
         self.end_headers()
         self.wfile.write(body)
+
+    def serve_digital(self, encoded_path: str):
+        relative_path = normalize_digital_path(unquote(encoded_path))
+        requested = (DIGITAL_LIBRARY_DIR / relative_path).resolve()
+        library_root = DIGITAL_LIBRARY_DIR.resolve()
+        if library_root not in requested.parents or not requested.is_file():
+            self.send_error_json("Digital file not found", 404)
+            return
+        size = requested.stat().st_size
+        mime = mimetypes.guess_type(requested.name)[0] or "application/octet-stream"
+        self.send_response(200)
+        self.send_header("Content-Type", mime)
+        self.send_header("Content-Length", str(size))
+        self.send_header("Cache-Control", "private, no-store")
+        self.send_header("Content-Disposition", f"inline; filename*=UTF-8''{quote(requested.name)}")
+        self.end_headers()
+        with requested.open("rb") as source:
+            shutil.copyfileobj(source, self.wfile, length=1024 * 1024)
 
 
 def main() -> None:

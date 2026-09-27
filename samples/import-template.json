@@ -13,6 +13,9 @@
       "contributors": [
         { "name": "Avery Editor", "role": "Editor" }
       ],
+      "digital_files": [
+        { "label": "Readable PDF", "relative_path": "example/collected-short-works.pdf" }
+      ],
       "contents": [
         {
           "title": "An Example Story",

@@ -166,7 +166,14 @@
         </section>
 
         <section class="form-section">
-          <div class="section-heading"><span>05</span><h3>Notes & custom fields</h3></div>
+          <div class="section-heading"><span>05</span><h3>Digital copies</h3></div>
+          <p class="section-help">Copy scans into <code>digital_library/</code>, then enter each path relative to that folder. Digital files and paths remain private.</p>
+          <div id="digital-files-list" class="repeat-list digital-files-list"></div>
+          <button type="button" class="add-row" data-action="add-digital-file">＋ Link a digital file</button>
+        </section>
+
+        <section class="form-section">
+          <div class="section-heading"><span>06</span><h3>Notes & custom fields</h3></div>
           <label><span>Private notes</span><textarea name="notes" rows="3"></textarea></label>
           <div id="metadata-list" class="repeat-list metadata-list"></div>
           <button type="button" class="add-row" data-action="add-metadata">＋ Add a custom field</button>
@@ -193,6 +200,20 @@
       <input data-field="key" placeholder="Field name" aria-label="Custom field name">
       <input data-field="value" placeholder="Value" aria-label="Custom field value">
       <button type="button" class="remove-row" aria-label="Remove custom field">×</button>
+    </div>
+  </template>
+  <template id="digital-file-template">
+    <div class="digital-file-row">
+      <div class="form-grid">
+        <label><span>Label</span><input data-field="label" placeholder="Readable PDF"></label>
+        <label><span>Path inside digital_library</span><input data-field="relative_path" placeholder="author/book-title.pdf"></label>
+        <label class="span-2"><span>Private file note</span><input data-field="notes" placeholder="Scan source, quality, missing pages…"></label>
+      </div>
+      <div class="digital-file-actions">
+        <a class="digital-file-open" target="_blank" rel="noreferrer" hidden>Open file</a>
+        <span class="digital-file-missing" hidden>File not found in digital_library</span>
+        <button type="button" class="remove-digital-file">Remove</button>
+      </div>
     </div>
   </template>
   <template id="content-template">
