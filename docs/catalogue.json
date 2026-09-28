@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "published_at": "2026-09-27T18:06:23+00:00",
+  "published_at": "2026-09-28T00:08:00+00:00",
   "items": [
     {
       "title": "1,000 Places to See Before You Die",
@@ -792,6 +792,72 @@
         {
           "name": "Thomas Hobbes",
           "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
+      "title": "Life of Mozart",
+      "subtitle": "in three volumes",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "1882",
+      "publisher": "Novello, Ewer & Co.",
+      "language": "English",
+      "volume_number": 1.0,
+      "shelf_position": "Digital",
+      "contributors": [
+        {
+          "name": "Otto Jahn",
+          "role": "Author"
+        },
+        {
+          "name": "Pauline D. Townsend",
+          "role": "Translator"
+        }
+      ],
+      "contents": []
+    },
+    {
+      "title": "Life of Mozart",
+      "subtitle": "in three volumes",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "1882",
+      "publisher": "Novello, Ewer & Co.",
+      "language": "English",
+      "volume_number": 2.0,
+      "shelf_position": "Digital",
+      "contributors": [
+        {
+          "name": "Otto Jahn",
+          "role": "Author"
+        },
+        {
+          "name": "Pauline D. Townsend",
+          "role": "Translator"
+        }
+      ],
+      "contents": []
+    },
+    {
+      "title": "Life of Mozart",
+      "subtitle": "in three volumes",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "1882",
+      "publisher": "Novello, Ewer & Co.",
+      "language": "English",
+      "volume_number": 3.0,
+      "shelf_position": "Digital",
+      "contributors": [
+        {
+          "name": "Otto Jahn",
+          "role": "Author"
+        },
+        {
+          "name": "Pauline D. Townsend",
+          "role": "Translator"
         }
       ],
       "contents": []
