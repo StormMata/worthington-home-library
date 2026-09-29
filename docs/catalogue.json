@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "published_at": "2026-09-28T00:08:00+00:00",
+  "published_at": "2026-09-29T20:49:37+00:00",
   "items": [
     {
       "title": "1,000 Places to See Before You Die",
@@ -441,6 +441,22 @@
       "contents": []
     },
     {
+      "title": "Concerto No. 27 in B-flat major for two pianos",
+      "media_category": "Score",
+      "item_type": "Single work",
+      "publisher": "Hal Leonard",
+      "identifier": "K. 595",
+      "set_name": "Schirmer's Library of Musical Classics",
+      "volume_number": 1721.0,
+      "contributors": [
+        {
+          "name": "Wolfgang Amadeus Mozart",
+          "role": "Composer"
+        }
+      ],
+      "contents": []
+    },
+    {
       "title": "Congo",
       "subtitle": "The epic history of a people",
       "media_category": "Book",
@@ -570,6 +586,22 @@
         {
           "name": "Werner S. Pluhar",
           "role": "Translator"
+        }
+      ],
+      "contents": []
+    },
+    {
+      "title": "Customs and Fashions in Old New England",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "1894",
+      "publisher": "Charles Scribner's Sons",
+      "language": "English",
+      "shelf_position": "Digital",
+      "contributors": [
+        {
+          "name": "Alice Morse Earle",
+          "role": "Author"
         }
       ],
       "contents": []
@@ -1372,6 +1404,28 @@
       "stack": "3",
       "shelf_row": "1",
       "contributors": [],
+      "contents": []
+    },
+    {
+      "title": "The Federalist Papers",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "language": "English",
+      "shelf_position": "Digital",
+      "contributors": [
+        {
+          "name": "Alexander Hamilton",
+          "role": "Author"
+        },
+        {
+          "name": "John Jay",
+          "role": "Author"
+        },
+        {
+          "name": "James Madison",
+          "role": "Author"
+        }
+      ],
       "contents": []
     },
     {
