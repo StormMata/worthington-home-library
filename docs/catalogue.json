@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "published_at": "2026-09-30T18:52:21+00:00",
+  "published_at": "2026-09-30T21:48:42+00:00",
   "items": [
     {
       "title": "1,000 Places to See Before You Die",
@@ -343,6 +343,200 @@
       "contents": []
     },
     {
+      "title": "CHOPIN COMPLETE WORKS",
+      "subtitle": "Ballades",
+      "media_category": "Score",
+      "item_type": "Collection",
+      "publication_date": "1978",
+      "publisher": "Hal Leonard Corporation",
+      "edition": "16",
+      "identifier": "0-7935-5974-X",
+      "language": "English",
+      "set_name": "Fryderyk Chopin Complete Works",
+      "volume_number": 3.0,
+      "contributors": [
+        {
+          "name": "Fryderyk Franciszek Chopin",
+          "role": "Composer"
+        }
+      ],
+      "contents": [
+        {
+          "title": "Ballade No. 1 in G minor, Op. 23",
+          "sequence_no": 1,
+          "contributors": []
+        },
+        {
+          "title": "Ballade No. 2 in F major, Op. 38",
+          "sequence_no": 2,
+          "contributors": []
+        },
+        {
+          "title": "Ballade No. 3 in A-flat major, Op. 47",
+          "sequence_no": 3,
+          "contributors": []
+        },
+        {
+          "title": "Ballade No. 4 in F minor, Op. 52",
+          "sequence_no": 4,
+          "contributors": []
+        }
+      ]
+    },
+    {
+      "title": "CHOPIN ETÜDEN Op. 10, Op. 25, Op. Posth.",
+      "media_category": "Score",
+      "item_type": "Collection",
+      "publication_date": "1956",
+      "publisher": "ZEN-ON Music Co., Ltd.",
+      "identifier": "4-11-110020-1",
+      "language": "Japanese",
+      "set_name": "Zen-on piano library",
+      "contributors": [
+        {
+          "name": "Frédéric François Chopin",
+          "role": "Composer"
+        }
+      ],
+      "contents": [
+        {
+          "title": "Étude Op. 10, No. 1 in C major",
+          "sequence_no": 1,
+          "contributors": []
+        },
+        {
+          "title": "Étude Op. 10, No. 2 in A minor",
+          "sequence_no": 2,
+          "contributors": []
+        },
+        {
+          "title": "Étude Op. 10, No. 3 in E major",
+          "sequence_no": 3,
+          "contributors": []
+        },
+        {
+          "title": "Étude Op. 10, No. 4 in C-sharp minor",
+          "sequence_no": 4,
+          "contributors": []
+        },
+        {
+          "title": "Étude Op. 10, No. 5 in G-flat major",
+          "sequence_no": 5,
+          "contributors": []
+        },
+        {
+          "title": "Étude Op. 10, No. 6 in E-flat minor",
+          "sequence_no": 6,
+          "contributors": []
+        },
+        {
+          "title": "Étude Op. 10, No. 7 in C major",
+          "sequence_no": 7,
+          "contributors": []
+        },
+        {
+          "title": "Étude Op. 10, No. 8 in F major",
+          "sequence_no": 8,
+          "contributors": []
+        },
+        {
+          "title": "Étude Op. 10, No. 9 in F minor",
+          "sequence_no": 9,
+          "contributors": []
+        },
+        {
+          "title": "Étude Op. 10, No. 10 in A-flat major",
+          "sequence_no": 10,
+          "contributors": []
+        },
+        {
+          "title": "Étude Op. 10, No. 11 in E-flat major",
+          "sequence_no": 11,
+          "contributors": []
+        },
+        {
+          "title": "Étude Op. 10, No. 12 in C minor",
+          "sequence_no": 12,
+          "contributors": []
+        },
+        {
+          "title": "Étude Op. 25, No. 1 in A-flat major",
+          "sequence_no": 13,
+          "contributors": []
+        },
+        {
+          "title": "Étude Op. 25, No. 2 in F minor",
+          "sequence_no": 14,
+          "contributors": []
+        },
+        {
+          "title": "Étude Op. 25, No. 3 in F major",
+          "sequence_no": 15,
+          "contributors": []
+        },
+        {
+          "title": "Étude Op. 25, No. 4 in A minor",
+          "sequence_no": 16,
+          "contributors": []
+        },
+        {
+          "title": "Étude Op. 25, No. 5 in E minor",
+          "sequence_no": 17,
+          "contributors": []
+        },
+        {
+          "title": "Étude Op. 25, No. 6 in G-sharp minor",
+          "sequence_no": 18,
+          "contributors": []
+        },
+        {
+          "title": "Étude Op. 25, No. 7 in C-sharp minor",
+          "sequence_no": 19,
+          "contributors": []
+        },
+        {
+          "title": "Étude Op. 25, No. 8 in D-flat major",
+          "sequence_no": 20,
+          "contributors": []
+        },
+        {
+          "title": "Étude Op. 25, No. 9 in G-flat major",
+          "sequence_no": 21,
+          "contributors": []
+        },
+        {
+          "title": "Étude Op. 25, No. 10 in B minor",
+          "sequence_no": 22,
+          "contributors": []
+        },
+        {
+          "title": "Étude Op. 25, No. 11 in A minor",
+          "sequence_no": 23,
+          "contributors": []
+        },
+        {
+          "title": "Étude Op. 25, No. 12 in C minor",
+          "sequence_no": 24,
+          "contributors": []
+        },
+        {
+          "title": "Trois nouvelles études No. 1 in F minor",
+          "sequence_no": 25,
+          "contributors": []
+        },
+        {
+          "title": "Trois nouvelles études No. 2 in A-flat major",
+          "sequence_no": 26,
+          "contributors": []
+        },
+        {
+          "title": "Trois nouvelles études No. 3 in D-flat major",
+          "sequence_no": 27,
+          "contributors": []
+        }
+      ]
+    },
+    {
       "title": "Civil Procedure",
       "subtitle": "Doctrine, Practice, and Context",
       "media_category": "Book",
@@ -674,6 +868,22 @@
       "contents": []
     },
     {
+      "title": "Czerny Op. 821 One Hundred and Sixty Eight-Measure Exercised for the Piano",
+      "media_category": "Score",
+      "item_type": "Collection",
+      "publication_date": "1898",
+      "publisher": "Hal Leonard",
+      "set_name": "Schirmer's Library of Musical Classics",
+      "volume_number": 147.0,
+      "contributors": [
+        {
+          "name": "Carl Czerny",
+          "role": "Composer"
+        }
+      ],
+      "contents": []
+    },
+    {
       "title": "Dartmouth Undying",
       "subtitle": "A celebration of place and possibility",
       "media_category": "Book",
@@ -879,6 +1089,31 @@
       "contents": []
     },
     {
+      "title": "ITALIENISCHES KONZERT",
+      "media_category": "Score",
+      "item_type": "Single work",
+      "publisher": "ZEN-ON Music Co., Ltd.",
+      "language": "Japanese",
+      "contributors": [
+        {
+          "name": "Johann Sebastian Bach",
+          "role": "Composer"
+        },
+        {
+          "name": "Eiji Hashimoto",
+          "role": "Editor"
+        }
+      ],
+      "contents": [
+        {
+          "title": "Italian Concerto, BWV 971",
+          "work_type": "Full score",
+          "sequence_no": 1,
+          "contributors": []
+        }
+      ]
+    },
+    {
       "title": "Leviathan",
       "subtitle": "with selected variants from the Latin edition of 1668",
       "media_category": "Book",
@@ -980,6 +1215,54 @@
         }
       ],
       "contents": []
+    },
+    {
+      "title": "MOZART SONATEN 1",
+      "media_category": "Score",
+      "item_type": "Single work",
+      "publication_date": "1955",
+      "publisher": "ZEN-ON Music Co., Ltd.",
+      "identifier": "4-11-106011-0",
+      "language": "Japanese",
+      "set_name": "Zen-on piano library",
+      "contributors": [
+        {
+          "name": "Wolfgang Amadeus Mozart",
+          "role": "Composer"
+        }
+      ],
+      "contents": [
+        {
+          "title": "Piano Sonata No. 15 in F major, K.V. 533/494",
+          "work_type": "Full score",
+          "sequence_no": 1,
+          "contributors": []
+        }
+      ]
+    },
+    {
+      "title": "MOZART SONATEN 2",
+      "media_category": "Score",
+      "item_type": "Single work",
+      "publication_date": "1956",
+      "publisher": "ZEN-ON Music Co., Ltd.",
+      "identifier": "4-11-106012-9",
+      "language": "Japanese",
+      "set_name": "Zen-on piano library",
+      "contributors": [
+        {
+          "name": "Wolfgang Amadeus Mozart",
+          "role": "Composer"
+        }
+      ],
+      "contents": [
+        {
+          "title": "Piano Sonata No. 6 in D major, K.V. 284/205b",
+          "work_type": "Full score",
+          "sequence_no": 1,
+          "contributors": []
+        }
+      ]
     },
     {
       "title": "Music Notation and Terminology",
@@ -1263,6 +1546,22 @@
       "contents": []
     },
     {
+      "title": "Schmitt Op. 16 Preparatory Exercises for the Piano",
+      "media_category": "Score",
+      "item_type": "Collection",
+      "publication_date": "1922",
+      "publisher": "Hal Leonard",
+      "set_name": "Schirmer's Library of Musical Classics",
+      "volume_number": 434.0,
+      "contributors": [
+        {
+          "name": "Aloys Schmitt",
+          "role": "Composer"
+        }
+      ],
+      "contents": []
+    },
+    {
       "title": "Sea People",
       "subtitle": "The Puzzle of Polynesia",
       "media_category": "Book",
@@ -1535,6 +1834,1242 @@
         }
       ],
       "contents": []
+    },
+    {
+      "title": "The International Library of Piano Music",
+      "media_category": "Book",
+      "item_type": "Anthology",
+      "publication_date": "1972",
+      "publisher": "The University Society, Inc.",
+      "identifier": "0-87824-053-5",
+      "language": "English",
+      "set_name": "The International Library of Piano Music",
+      "volume_number": 1.0,
+      "contributors": [
+        {
+          "name": "Felix Greissle",
+          "role": "Music Director and Editor-in-Chief"
+        },
+        {
+          "name": "Arnold Broido",
+          "role": "Associate Music Editor"
+        },
+        {
+          "name": "Elizabeth Voldstad",
+          "role": "Assistant Music Editor"
+        },
+        {
+          "name": "Corinna Marsh",
+          "role": "Literary Editor"
+        },
+        {
+          "name": "George Cooke",
+          "role": "Copy Editor"
+        },
+        {
+          "name": "Frank G. Campbell",
+          "role": "Editorial Staff"
+        },
+        {
+          "name": "Van Cliburn",
+          "role": "Editorial Staff"
+        },
+        {
+          "name": "Aaron Copland",
+          "role": "Editorial Staff"
+        },
+        {
+          "name": "Norman Dello Joio",
+          "role": "Editorial Staff"
+        },
+        {
+          "name": "Robert Dumm",
+          "role": "Editorial Staff"
+        },
+        {
+          "name": "Walter Hendl",
+          "role": "Editorial Staff"
+        },
+        {
+          "name": "Peter Mennin",
+          "role": "Editorial Staff"
+        },
+        {
+          "name": "Rudolph Serkin",
+          "role": "Editorial Staff"
+        },
+        {
+          "name": "Roger Sessions",
+          "role": "Editorial Staff"
+        },
+        {
+          "name": "Hale Smith",
+          "role": "Editorial Staff"
+        },
+        {
+          "name": "Claudette Sorel",
+          "role": "Editorial Staff"
+        }
+      ],
+      "contents": [
+        {
+          "title": "Allemande in A major",
+          "work_type": "Piano score",
+          "sequence_no": 1,
+          "page_start": "214",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Fugue in C major",
+          "work_type": "Piano score",
+          "sequence_no": 2,
+          "page_start": "8",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Invention No. 9 in F minor",
+          "work_type": "Piano score",
+          "sequence_no": 3,
+          "page_start": "24",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Invention No. 14 in B-flat major",
+          "work_type": "Piano score",
+          "sequence_no": 4,
+          "page_start": "26",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Invention No. 15 in B minor",
+          "work_type": "Piano score",
+          "sequence_no": 5,
+          "page_start": "28",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Invention No. 1 in C major",
+          "work_type": "Piano score",
+          "sequence_no": 6,
+          "page_start": "10",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Invention No. 6 in E major",
+          "work_type": "Piano score",
+          "sequence_no": 7,
+          "page_start": "12",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Invention No. 7 in E minor",
+          "work_type": "Piano score",
+          "sequence_no": 8,
+          "page_start": "14",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Invention No. 8 in F major",
+          "work_type": "Piano score",
+          "sequence_no": 9,
+          "page_start": "16",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Invention No. 9 in F minor",
+          "work_type": "Piano score",
+          "sequence_no": 10,
+          "page_start": "18",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Invention No. 10 in G major",
+          "work_type": "Piano score",
+          "sequence_no": 11,
+          "page_start": "20",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Invention No. 14 in B-flat major",
+          "work_type": "Piano score",
+          "sequence_no": 12,
+          "page_start": "22",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Little Fugue in C minor",
+          "work_type": "Piano score",
+          "sequence_no": 13,
+          "page_start": "46",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Little Prelude in C major (Allegro)",
+          "work_type": "Piano score",
+          "sequence_no": 14,
+          "page_start": "2",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Little Prelude in C major (Moderato)",
+          "work_type": "Piano score",
+          "sequence_no": 15,
+          "page_start": "1",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Little Prelude in C minor",
+          "work_type": "Piano score",
+          "sequence_no": 16,
+          "page_start": "3",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Little Prelude in D minor",
+          "work_type": "Piano score",
+          "sequence_no": 17,
+          "page_start": "6",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Little Prelude No. 8 in F major",
+          "work_type": "Piano score",
+          "sequence_no": 18,
+          "page_start": "56",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Little Prelude No. 9 in F major",
+          "work_type": "Piano score",
+          "sequence_no": 19,
+          "page_start": "54",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Musette",
+          "work_type": "Piano score",
+          "sequence_no": 20,
+          "page_start": "48",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Prelude and Fugue No. 1 in C major",
+          "work_type": "Piano score",
+          "sequence_no": 21,
+          "page_start": "42",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Prelude and Fugue No. 2 in C minor",
+          "work_type": "Piano score",
+          "sequence_no": 22,
+          "page_start": "49",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Prelude and Fugue No. 5 in D major",
+          "work_type": "Piano score",
+          "sequence_no": 23,
+          "page_start": "30",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Prelude and Fugue No. 6 in D minor",
+          "work_type": "Piano score",
+          "sequence_no": 24,
+          "page_start": "36",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Allemande",
+          "work_type": "Piano score",
+          "sequence_no": 25,
+          "page_start": "58",
+          "contributors": [
+            {
+              "name": "Dietrich Buxtehude",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Sarabande",
+          "work_type": "Piano score",
+          "sequence_no": 26,
+          "page_start": "57",
+          "contributors": [
+            {
+              "name": "Dietrich Buxtehude",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "A Gigg",
+          "work_type": "Piano score",
+          "sequence_no": 27,
+          "page_start": "60",
+          "contributors": [
+            {
+              "name": "William Byrd",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Pavane (The Earle of Salisbury)",
+          "work_type": "Piano score",
+          "sequence_no": 28,
+          "page_start": "61",
+          "contributors": [
+            {
+              "name": "William Byrd",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Les Agréments",
+          "work_type": "Piano score",
+          "sequence_no": 29,
+          "page_start": "64",
+          "contributors": [
+            {
+              "name": "François Couperin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "L’Aimable Thérèse",
+          "work_type": "Piano score",
+          "sequence_no": 30,
+          "page_start": "72",
+          "contributors": [
+            {
+              "name": "François Couperin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "La Couperin",
+          "work_type": "Piano score",
+          "sequence_no": 31,
+          "page_start": "74",
+          "contributors": [
+            {
+              "name": "François Couperin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Les Papillons",
+          "work_type": "Piano score",
+          "sequence_no": 32,
+          "page_start": "62",
+          "contributors": [
+            {
+              "name": "François Couperin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Passacaille",
+          "work_type": "Piano score",
+          "sequence_no": 33,
+          "page_start": "67",
+          "contributors": [
+            {
+              "name": "François Couperin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "The Twenty-Fourth Order: Les Vieux Seigneurs",
+          "work_type": "Piano score",
+          "sequence_no": 34,
+          "page_start": "76",
+          "contributors": [
+            {
+              "name": "François Couperin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "The Twenty-Fourth Order: Les Jeunes Seigneurs",
+          "work_type": "Piano score",
+          "sequence_no": 35,
+          "page_start": "76",
+          "contributors": [
+            {
+              "name": "François Couperin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "The Twenty-Third Order: L’Audacieuse",
+          "work_type": "Piano score",
+          "sequence_no": 36,
+          "page_start": "80",
+          "contributors": [
+            {
+              "name": "François Couperin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "The Twenty-Third Order: Les Tricoteuses",
+          "work_type": "Piano score",
+          "sequence_no": 37,
+          "page_start": "80",
+          "contributors": [
+            {
+              "name": "François Couperin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "The Twenty-Third Order: L’Arlequine",
+          "work_type": "Piano score",
+          "sequence_no": 38,
+          "page_start": "80",
+          "contributors": [
+            {
+              "name": "François Couperin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "The Twenty-Third Order: Les Gondoles de Délos",
+          "work_type": "Piano score",
+          "sequence_no": 39,
+          "page_start": "80",
+          "contributors": [
+            {
+              "name": "François Couperin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "The Twenty-Third Order: Les Satires",
+          "work_type": "Piano score",
+          "sequence_no": 40,
+          "page_start": "80",
+          "contributors": [
+            {
+              "name": "François Couperin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "L’Amusante",
+          "work_type": "Piano score",
+          "sequence_no": 41,
+          "page_start": "91",
+          "contributors": [
+            {
+              "name": "Louis Claude Daquin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Le Coucou (Rondo)",
+          "work_type": "Piano score",
+          "sequence_no": 42,
+          "page_start": "96",
+          "contributors": [
+            {
+              "name": "Louis Claude Daquin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "La Guitare",
+          "work_type": "Piano score",
+          "sequence_no": 43,
+          "page_start": "102",
+          "contributors": [
+            {
+              "name": "Louis Claude Daquin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "La Joyeuse",
+          "work_type": "Piano score",
+          "sequence_no": 44,
+          "page_start": "104",
+          "contributors": [
+            {
+              "name": "Louis Claude Daquin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "La Tendre Silvie",
+          "work_type": "Piano score",
+          "sequence_no": 45,
+          "page_start": "106",
+          "contributors": [
+            {
+              "name": "Louis Claude Daquin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Gigue in A major",
+          "work_type": "Piano score",
+          "sequence_no": 46,
+          "page_start": "110",
+          "contributors": [
+            {
+              "name": "Charles Dieupart",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "A Toye",
+          "work_type": "Piano score",
+          "sequence_no": 47,
+          "page_start": "112",
+          "contributors": [
+            {
+              "name": "Giles Farnaby",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Gigue",
+          "work_type": "Piano score",
+          "sequence_no": 48,
+          "page_start": "124",
+          "contributors": [
+            {
+              "name": "Johann Caspar Ferdinand Fischer",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Melpomene (Suite): Praeludium",
+          "work_type": "Piano score",
+          "sequence_no": 49,
+          "page_start": "114",
+          "contributors": [
+            {
+              "name": "Johann Caspar Ferdinand Fischer",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Melpomene (Suite): Allemande",
+          "work_type": "Piano score",
+          "sequence_no": 50,
+          "page_start": "114",
+          "contributors": [
+            {
+              "name": "Johann Caspar Ferdinand Fischer",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Melpomene (Suite): Passepied",
+          "work_type": "Piano score",
+          "sequence_no": 51,
+          "page_start": "114",
+          "contributors": [
+            {
+              "name": "Johann Caspar Ferdinand Fischer",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Melpomene (Suite): Rondeau",
+          "work_type": "Piano score",
+          "sequence_no": 52,
+          "page_start": "114",
+          "contributors": [
+            {
+              "name": "Johann Caspar Ferdinand Fischer",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Melpomene (Suite): Chaconne",
+          "work_type": "Piano score",
+          "sequence_no": 53,
+          "page_start": "114",
+          "contributors": [
+            {
+              "name": "Johann Caspar Ferdinand Fischer",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Melpomene (Suite): Gigue",
+          "work_type": "Piano score",
+          "sequence_no": 54,
+          "page_start": "114",
+          "contributors": [
+            {
+              "name": "Johann Caspar Ferdinand Fischer",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Melpomene (Suite): Bourrée",
+          "work_type": "Piano score",
+          "sequence_no": 55,
+          "page_start": "114",
+          "contributors": [
+            {
+              "name": "Johann Caspar Ferdinand Fischer",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Melpomene (Suite): Menuet I",
+          "work_type": "Piano score",
+          "sequence_no": 56,
+          "page_start": "114",
+          "contributors": [
+            {
+              "name": "Johann Caspar Ferdinand Fischer",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Melpomene (Suite): Menuet II",
+          "work_type": "Piano score",
+          "sequence_no": 57,
+          "page_start": "114",
+          "contributors": [
+            {
+              "name": "Johann Caspar Ferdinand Fischer",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Corrente",
+          "work_type": "Piano score",
+          "sequence_no": 58,
+          "page_start": "109",
+          "contributors": [
+            {
+              "name": "Girolamo Frescobaldi",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Allegro",
+          "work_type": "Piano score",
+          "sequence_no": 59,
+          "page_start": "140",
+          "contributors": [
+            {
+              "name": "George Frederic Handel",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Allemande",
+          "work_type": "Piano score",
+          "sequence_no": 60,
+          "page_start": "125",
+          "contributors": [
+            {
+              "name": "George Frederic Handel",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Allemande",
+          "work_type": "Piano score",
+          "sequence_no": 61,
+          "page_start": "133",
+          "contributors": [
+            {
+              "name": "George Frederic Handel",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Aria",
+          "work_type": "Piano score",
+          "sequence_no": 62,
+          "page_start": "134",
+          "contributors": [
+            {
+              "name": "George Frederic Handel",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Chaconne with Variations in G major",
+          "work_type": "Piano score",
+          "sequence_no": 63,
+          "page_start": "128",
+          "contributors": [
+            {
+              "name": "George Frederic Handel",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Courante",
+          "work_type": "Piano score",
+          "sequence_no": 64,
+          "page_start": "136",
+          "contributors": [
+            {
+              "name": "George Frederic Handel",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Fughetta No. 1 in C major",
+          "work_type": "Piano score",
+          "sequence_no": 65,
+          "page_start": "142",
+          "contributors": [
+            {
+              "name": "George Frederic Handel",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Fughetta No. 5 in D major",
+          "work_type": "Piano score",
+          "sequence_no": 66,
+          "page_start": "144",
+          "contributors": [
+            {
+              "name": "George Frederic Handel",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Sarabande in D minor",
+          "work_type": "Piano score",
+          "sequence_no": 67,
+          "page_start": "132",
+          "contributors": [
+            {
+              "name": "George Frederic Handel",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Sarabande",
+          "work_type": "Piano score",
+          "sequence_no": 68,
+          "page_start": "138",
+          "contributors": [
+            {
+              "name": "George Frederic Handel",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Sarabande with Variations",
+          "work_type": "Piano score",
+          "sequence_no": 69,
+          "page_start": "147",
+          "contributors": [
+            {
+              "name": "George Frederic Handel",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Passepied",
+          "work_type": "Piano score",
+          "sequence_no": 70,
+          "page_start": "150",
+          "contributors": [
+            {
+              "name": "Gaspard Le Roux",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Menuet",
+          "work_type": "Piano score",
+          "sequence_no": 71,
+          "page_start": "151",
+          "contributors": [
+            {
+              "name": "Gottlieb Muffat",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Dance",
+          "work_type": "Piano score",
+          "sequence_no": 72,
+          "page_start": "153",
+          "contributors": [
+            {
+              "name": "Hans Neusiedler",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Prélude et Fugue",
+          "work_type": "Piano score",
+          "sequence_no": 73,
+          "page_start": "154",
+          "contributors": [
+            {
+              "name": "Guillaume Gabriel Nivers",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Ciacona in F minor",
+          "work_type": "Piano score",
+          "sequence_no": 74,
+          "page_start": "164",
+          "contributors": [
+            {
+              "name": "Johann Pachelbel",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Ciacona with Thirteen Variations in D major",
+          "work_type": "Piano score",
+          "sequence_no": 75,
+          "page_start": "156",
+          "contributors": [
+            {
+              "name": "Johann Pachelbel",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Corant",
+          "work_type": "Piano score",
+          "sequence_no": 76,
+          "page_start": "172",
+          "contributors": [
+            {
+              "name": "Henry Purcell",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Hornpipe",
+          "work_type": "Piano score",
+          "sequence_no": 77,
+          "page_start": "171",
+          "contributors": [
+            {
+              "name": "Henry Purcell",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Gavotte Variée",
+          "work_type": "Piano score",
+          "sequence_no": 78,
+          "page_start": "177",
+          "contributors": [
+            {
+              "name": "Jean-Philippe Rameau",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Le Rappel des Oiseaux",
+          "work_type": "Piano score",
+          "sequence_no": 79,
+          "page_start": "184",
+          "contributors": [
+            {
+              "name": "Jean-Philippe Rameau",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Rondeau",
+          "work_type": "Piano score",
+          "sequence_no": 80,
+          "page_start": "188",
+          "contributors": [
+            {
+              "name": "Jean-Philippe Rameau",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Tambourin",
+          "work_type": "Piano score",
+          "sequence_no": 81,
+          "page_start": "190",
+          "contributors": [
+            {
+              "name": "Jean-Philippe Rameau",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Allemande",
+          "work_type": "Piano score",
+          "sequence_no": 82,
+          "page_start": "192",
+          "contributors": [
+            {
+              "name": "Johann Adam Reinken",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Sonata in B-flat major, L. 50",
+          "work_type": "Piano score",
+          "sequence_no": 83,
+          "page_start": "194",
+          "contributors": [
+            {
+              "name": "Domenico Scarlatti",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Sonata in A major, L. 95",
+          "work_type": "Piano score",
+          "sequence_no": 84,
+          "page_start": "200",
+          "contributors": [
+            {
+              "name": "Domenico Scarlatti",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Sonata in A major, L. 94",
+          "work_type": "Piano score",
+          "sequence_no": 85,
+          "page_start": "198",
+          "contributors": [
+            {
+              "name": "Domenico Scarlatti",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Sonata in C major, L. 358",
+          "work_type": "Piano score",
+          "sequence_no": 86,
+          "page_start": "202",
+          "contributors": [
+            {
+              "name": "Domenico Scarlatti",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Sonata in B-flat major, L. 386",
+          "work_type": "Piano score",
+          "sequence_no": 87,
+          "page_start": "204",
+          "contributors": [
+            {
+              "name": "Domenico Scarlatti",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Cantio Belgica",
+          "work_type": "Piano score",
+          "sequence_no": 88,
+          "page_start": "208",
+          "contributors": [
+            {
+              "name": "Samuel Scheidt",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Fantasia in E-flat major",
+          "work_type": "Piano score",
+          "sequence_no": 89,
+          "page_start": "210",
+          "contributors": [
+            {
+              "name": "Georg Philipp Telemann",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Fantasia in G major",
+          "work_type": "Piano score",
+          "sequence_no": 90,
+          "page_start": "213",
+          "contributors": [
+            {
+              "name": "Georg Philipp Telemann",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Allegro in A major",
+          "work_type": "Piano score",
+          "sequence_no": 91,
+          "page_start": "226",
+          "contributors": []
+        },
+        {
+          "title": "Bassa Imperiale",
+          "work_type": "Piano score",
+          "sequence_no": 92,
+          "page_start": "218",
+          "contributors": []
+        },
+        {
+          "title": "March in D major",
+          "work_type": "Piano score",
+          "sequence_no": 93,
+          "page_start": "217",
+          "contributors": []
+        },
+        {
+          "title": "Minuet in C minor",
+          "work_type": "Piano score",
+          "sequence_no": 94,
+          "page_start": "222",
+          "contributors": []
+        },
+        {
+          "title": "Minuet in D minor",
+          "work_type": "Piano score",
+          "sequence_no": 95,
+          "page_start": "223",
+          "contributors": []
+        },
+        {
+          "title": "Minuet in G major",
+          "work_type": "Piano score",
+          "sequence_no": 96,
+          "page_start": "220",
+          "contributors": []
+        },
+        {
+          "title": "Musette in D major",
+          "work_type": "Piano score",
+          "sequence_no": 97,
+          "page_start": "224",
+          "contributors": []
+        },
+        {
+          "title": "Old English Dance (c. 1350)",
+          "work_type": "Piano score",
+          "sequence_no": 98,
+          "page_start": "174",
+          "contributors": []
+        },
+        {
+          "title": "Passepied in D major",
+          "work_type": "Piano score",
+          "sequence_no": 99,
+          "page_start": "230",
+          "contributors": []
+        },
+        {
+          "title": "Polonaise in G minor",
+          "work_type": "Piano score",
+          "sequence_no": 100,
+          "page_start": "225",
+          "contributors": []
+        },
+        {
+          "title": "Scherzo in C major",
+          "work_type": "Piano score",
+          "sequence_no": 101,
+          "page_start": "228",
+          "contributors": []
+        }
+      ]
     },
     {
       "title": "The Lost Art of Handwriting",
@@ -1812,6 +3347,53 @@
         }
       ],
       "contents": []
+    },
+    {
+      "title": "TSCHAIKOWSKY DIE JAHRSZEITEN Op. 37a",
+      "media_category": "Score",
+      "item_type": "Single work",
+      "publication_date": "1957",
+      "publisher": "ZEN-ON Music Co., Ltd.",
+      "identifier": "4-11-112030-X",
+      "language": "Japanese",
+      "set_name": "Zen-on piano library",
+      "contributors": [
+        {
+          "name": "Pyotr Ilyich Tchaikovsky",
+          "role": "Composer"
+        }
+      ],
+      "contents": [
+        {
+          "title": "The Seasons, Op. 37a",
+          "work_type": "Full score",
+          "sequence_no": 1,
+          "contributors": []
+        }
+      ]
+    },
+    {
+      "title": "Tschaikowsky Op. 23 Concerto No. 1 in B-flat Minor Two-piano Score",
+      "media_category": "Score",
+      "item_type": "Single work",
+      "publication_date": "1932",
+      "publisher": "Hal Leonard",
+      "set_name": "Schirmer's Library of Musical Classics",
+      "volume_number": 1045.0,
+      "contributors": [
+        {
+          "name": "Pyotr Ilyich Tchaikovsky",
+          "role": "Composer"
+        }
+      ],
+      "contents": [
+        {
+          "title": "Piano Concerto No. 1 in B-flat minor, Op. 23",
+          "work_type": "Full score",
+          "sequence_no": 1,
+          "contributors": []
+        }
+      ]
     },
     {
       "title": "Wine folly: the essential guide to wine",
