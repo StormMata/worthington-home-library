@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "published_at": "2026-09-29T20:49:37+00:00",
+  "published_at": "2026-09-30T18:52:21+00:00",
   "items": [
     {
       "title": "1,000 Places to See Before You Die",
@@ -439,6 +439,73 @@
         }
       ],
       "contents": []
+    },
+    {
+      "title": "Complete Piano Concertos in Full Score",
+      "media_category": "Score",
+      "item_type": "Collection",
+      "publication_date": "February 1, 1984",
+      "publisher": "Dover Publications",
+      "identifier": "0-486-24563-2",
+      "language": "English",
+      "contributors": [
+        {
+          "name": "Ludwig van Beethoven",
+          "role": "Author"
+        }
+      ],
+      "contents": [
+        {
+          "title": "Piano Concerto No. 1 in C Major, Op. 15",
+          "work_type": "Full score",
+          "sequence_no": 1,
+          "contributors": []
+        },
+        {
+          "title": "Piano Concerto No. 2 in B-flat Major, Op. 19",
+          "work_type": "Full score",
+          "sequence_no": 2,
+          "contributors": []
+        },
+        {
+          "title": "Piano Concerto No. 3 in C Minor, Op. 37",
+          "work_type": "Full score",
+          "sequence_no": 3,
+          "contributors": []
+        },
+        {
+          "title": "Piano Concerto No. 4 in G Major, Op. 58",
+          "work_type": "Full score",
+          "sequence_no": 4,
+          "contributors": []
+        },
+        {
+          "title": "Piano Concerto No. 5 in E-flat Major, Op. 73",
+          "work_type": "Full score",
+          "sequence_no": 5,
+          "contributors": []
+        },
+        {
+          "title": "Cadenzas for Concerto No. 1",
+          "sequence_no": 6,
+          "contributors": []
+        },
+        {
+          "title": "Cadenzas for Concerto No. 2",
+          "sequence_no": 7,
+          "contributors": []
+        },
+        {
+          "title": "Cadenzas for Concerto No. 3",
+          "sequence_no": 8,
+          "contributors": []
+        },
+        {
+          "title": "Cadenzas for Concerto No. 4",
+          "sequence_no": 9,
+          "contributors": []
+        }
+      ]
     },
     {
       "title": "Concerto No. 27 in B-flat major for two pianos",
