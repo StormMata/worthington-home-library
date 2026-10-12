@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "published_at": "2026-10-10T20:29:12+00:00",
+  "published_at": "2026-10-12T18:35:26+00:00",
   "items": [
     {
       "title": "1,000 Places to See Before You Die",
@@ -103,6 +103,21 @@
       "contributors": [
         {
           "name": "Jonathan Swift",
+          "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
+      "title": "A Pictorial History of the American Indian",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "1957",
+      "publisher": "Crown Publishers",
+      "language": "English",
+      "contributors": [
+        {
+          "name": "Oliver La Farge",
           "role": "Author"
         }
       ],
@@ -1051,6 +1066,23 @@
       "contents": []
     },
     {
+      "title": "English Poetry",
+      "subtitle": "of the seventeenth century",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "1936",
+      "publisher": "W. W. Norton and Company, Inc",
+      "edition": "1",
+      "language": "English",
+      "contributors": [
+        {
+          "name": "Roberta Florence Brinkley",
+          "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
       "title": "Environmental engineering science",
       "media_category": "Book",
       "item_type": "Single work",
@@ -1083,6 +1115,31 @@
         {
           "name": "Maria Bueno",
           "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
+      "title": "Familiar Quotations",
+      "subtitle": "A collection of passages, phrases, and proverbs traced to their sources in ancient and modern literature",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "1946",
+      "publisher": "Little, Brown and Company",
+      "edition": "11",
+      "language": "English",
+      "contributors": [
+        {
+          "name": "John Bartlett",
+          "role": "Author"
+        },
+        {
+          "name": "Christopher Morley",
+          "role": "Editor"
+        },
+        {
+          "name": "Louella D. Everett",
+          "role": "Editor"
         }
       ],
       "contents": []
@@ -1676,6 +1733,22 @@
       "contents": []
     },
     {
+      "title": "Poems of William Wordsworth",
+      "subtitle": "with Arnold's essay on Wordsworth",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "1924",
+      "publisher": "Scott, Foresman and Company",
+      "language": "English",
+      "contributors": [
+        {
+          "name": "Howard Judson Hall",
+          "role": "Editor"
+        }
+      ],
+      "contents": []
+    },
+    {
       "title": "Porcelain",
       "media_category": "Book",
       "item_type": "Single work",
@@ -2087,6 +2160,21 @@
         {
           "name": "Henry G. Alsberg",
           "role": "Editor"
+        }
+      ],
+      "contents": []
+    },
+    {
+      "title": "The Best Loved Poems of the American People",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "1936",
+      "publisher": "Garden City Books",
+      "language": "English",
+      "contributors": [
+        {
+          "name": "Hazel Felleman",
+          "role": "Author"
         }
       ],
       "contents": []
@@ -27410,6 +27498,22 @@
       "contributors": [
         {
           "name": "David S. Grover",
+          "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
+      "title": "The Picture of Dorian Gray",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "Oct 29, 2015",
+      "publisher": "Sterling",
+      "identifier": "978-1-4351-5958-7",
+      "language": "English",
+      "contributors": [
+        {
+          "name": "Oscar Wilde",
           "role": "Author"
         }
       ],
