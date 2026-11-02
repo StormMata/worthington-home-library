@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "published_at": "2026-10-27T22:21:57+00:00",
+  "published_at": "2026-11-02T23:07:33+00:00",
   "items": [
     {
       "title": "1,000 Places to See Before You Die",
@@ -2045,7 +2045,7 @@
       "publisher": "NUS Press",
       "identifier": "978-9971-69-414-2",
       "language": "English",
-      "stack": "3",
+      "stack": "2",
       "shelf_row": "7",
       "contributors": [
         {
@@ -3021,6 +3021,8 @@
       "publisher": "University of California Press",
       "identifier": "978-0-520-27148-7",
       "language": "English",
+      "stack": "3",
+      "shelf_row": "7",
       "contributors": [
         {
           "name": "C. J. Pascoe",
@@ -7866,6 +7868,8 @@
       "publication_date": "2005",
       "publisher": "UBC Press",
       "identifier": "0-7748-1065-3",
+      "stack": "3",
+      "shelf_row": "7",
       "contributors": [
         {
           "name": "Docherty",
@@ -20082,7 +20086,7 @@
       "publication_date": "Dec 15, 2016",
       "publisher": "University of Pennsylvania Press",
       "identifier": "978-0-8122-2376-7",
-      "stack": "3",
+      "stack": "2",
       "shelf_row": "7",
       "contributors": [
         {
@@ -47738,7 +47742,7 @@
       "identifier": "9781566894708",
       "language": "English",
       "stack": "3",
-      "shelf_row": "2",
+      "shelf_row": "7",
       "contributors": [
         {
           "name": "Bao Phi",
@@ -48074,6 +48078,21 @@
         },
         {
           "name": "Larissa Volokhonsky",
+          "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
+      "title": "Watch Adjustments",
+      "media_category": "Book",
+      "item_type": "Collection",
+      "publication_date": "2026",
+      "language": "English",
+      "description": "A collection of 26 articles published between 1979 and 1981 in the AWCI's magazine, Horological Times. Typeset by u/gnomon_knows and downloaded from r/watchrepair.",
+      "contributors": [
+        {
+          "name": "Joseph Rugole",
           "role": "Author"
         }
       ],
