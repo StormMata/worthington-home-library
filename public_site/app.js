@@ -32,6 +32,20 @@ function matchingContents(item, query) {
   }).slice(0, 2);
 }
 
+function renderCurrentlyReading() {
+  const items = state.items.filter(item => item.currently_reading);
+  const section = $("#currently-reading");
+  section.hidden = items.length === 0;
+  $("#currently-reading-list").innerHTML = items.map(item => {
+    const index = state.items.indexOf(item);
+    return `<button class="current-reading-card" data-index="${index}">
+      <span class="reading-mark" aria-hidden="true">↳</span>
+      <span><strong>${esc(item.title)}</strong><small>${esc([people(item.contributors),item.set_name,volume(item)].filter(Boolean).join(" · "))}</small></span>
+      <span class="arrow">→</span>
+    </button>`;
+  }).join("");
+}
+
 function render() {
   const query = $("#search").value.trim().toLocaleLowerCase();
   const category = $("#category").value;
@@ -49,7 +63,7 @@ function render() {
     const matches = matchingContents(item, query);
     return `<button class="result" data-index="${index}">
       <span class="spine ${(item.contents || []).length > 1 ? "multi" : ""}">${esc((item.media_category || "Item").slice(0,3).toUpperCase())}</span>
-      <span><span class="result-title">${esc(item.title)}</span><span class="result-sub">${esc([people(item.contributors),item.publisher,item.publication_date].filter(Boolean).join(" · "))}</span><span class="result-meta">${(item.contents || []).length ? `${item.contents.length} indexed ${(item.contents || []).length === 1 ? "work" : "works"}` : ""}</span>${matches.map(work => `<span class="match">Matched: ${esc(work.title)}${work.page_start ? ` · p. ${esc(work.page_start)}` : ""}</span>`).join("")}</span>
+      <span><span class="result-title">${esc(item.title)}${item.currently_reading ? `<span class="reading-badge">Currently reading</span>` : ""}</span><span class="result-sub">${esc([people(item.contributors),item.publisher,item.publication_date].filter(Boolean).join(" · "))}</span><span class="result-meta">${(item.contents || []).length ? `${item.contents.length} indexed ${(item.contents || []).length === 1 ? "work" : "works"}` : ""}</span>${matches.map(work => `<span class="match">Matched: ${esc(work.title)}${work.page_start ? ` · p. ${esc(work.page_start)}` : ""}</span>`).join("")}</span>
       <span class="set">${esc([item.set_name,volume(item)].filter(Boolean).join(" · "))}</span>
       <span class="location"><small>Location</small>${esc(itemLocation(item) || "Not assigned")}</span>
       <span class="arrow">→</span>
@@ -73,6 +87,7 @@ function openDetails(index) {
     <div class="detail-grid">
       ${item.contributors?.length ? `<div class="detail-field"><small>Contributors</small>${esc(people(item.contributors))}</div>` : ""}
       ${fields.map(([key,label]) => `<div class="detail-field"><small>${label}</small>${esc(item[key])}</div>`).join("")}
+      ${item.currently_reading ? `<div class="detail-field"><small>Reading status</small><span class="reading-badge detail-reading-badge">Currently reading</span></div>` : ""}
       <div class="detail-field"><small>Location</small>${esc(itemLocation(item) || "Not assigned")}</div>
       ${item.description ? `<div class="detail-field detail-description"><small>Description</small>${esc(item.description)}</div>` : ""}
     </div>
@@ -81,7 +96,7 @@ function openDetails(index) {
 }
 
 document.addEventListener("click", event => {
-  const result = event.target.closest(".result");
+  const result = event.target.closest(".result, .current-reading-card");
   if (result) openDetails(Number(result.dataset.index));
 });
 $("#close-details").addEventListener("click", () => $("#details").close());
@@ -101,6 +116,7 @@ fetch("catalogue.json").then(response => {
   setOptions("#stack", state.items.map(item => item.stack), "All stacks");
   setOptions("#row", state.items.map(item => item.shelf_row), "All rows");
   if (state.publishedAt) $("#published").textContent = `Updated ${new Date(state.publishedAt).toLocaleDateString()}`;
+  renderCurrentlyReading();
   render();
 }).catch(error => {
   $("#count").textContent = "Unavailable";

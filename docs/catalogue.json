@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "published_at": "2026-11-02T23:07:33+00:00",
+  "published_at": "2026-11-03T21:35:52+00:00",
   "items": [
     {
       "title": "1,000 Places to See Before You Die",
@@ -47153,6 +47153,7 @@
       "language": "English",
       "stack": "1",
       "shelf_row": "5",
+      "currently_reading": true,
       "contributors": [
         {
           "name": "David S. Grover",
@@ -47171,6 +47172,7 @@
       "language": "English",
       "stack": "1",
       "shelf_row": "5",
+      "currently_reading": true,
       "contributors": [
         {
           "name": "Oscar Wilde",

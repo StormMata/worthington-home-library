@@ -40,6 +40,7 @@ Digital scans and ebooks live in `digital_library/`. An item may link to any num
 - Set name, volume number, stack, row, and an optional position describe how an item belongs and where it lives.
 - Custom fields hold metadata that does not fit the standard fields.
 - Digital-file links connect a record to scans stored privately in `digital_library/`.
+- Reading progress records private start and finish dates plus a currently-reading status. Only the status is included in the public catalogue.
 
 Searching for a contained work or its contributor returns the physical item and shelf location needed to retrieve it.
 
@@ -79,6 +80,7 @@ Shelf Index can generate a separate static site for GitHub Pages. The public sit
 - Sets and volume information
 - Contained-work titles, contributors, types, dates, languages, sequence, and page ranges
 - Stack, row, and shelf-position location
+- Currently-reading status (reading dates remain private)
 
 It always excludes private notes, custom metadata, digital files and their paths, internal database IDs, timestamps, import and backup tools, ISBN lookup caches, and every editing or deletion capability. The SQLite database and digital scans are excluded from Git by [`.gitignore`](.gitignore).
 

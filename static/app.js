@@ -116,7 +116,7 @@ function renderResults(items) {
     <button class="result-card" data-id="${item.id}">
       <span class="spine ${item.content_count > 1 ? "anthology" : ""}">${escapeHtml((item.media_category || "Item").slice(0, 3).toUpperCase())}</span>
       <span>
-        <span class="result-title">${escapeHtml(item.title)}</span>
+        <span class="result-title">${escapeHtml(item.title)}${item.currently_reading ? `<span class="reading-badge">Currently reading</span>` : ""}</span>
         <span class="result-sub">${escapeHtml([item.contributors, item.publisher, item.publication_date].filter(Boolean).join(" · "))}</span>
         <span class="result-meta">${item.content_count ? `${item.content_count} indexed ${item.content_count === 1 ? "work" : "works"}` : "No contained works indexed"}${item.digital_file_count ? ` · ${item.digital_file_count} digital ${item.digital_file_count === 1 ? "file" : "files"}` : ""}</span>
         ${(item.matched_contents || []).map(match => `<span class="content-match"><b>Matched:</b> ${escapeHtml(match.title)}${match.contributors ? ` — ${escapeHtml(match.contributors)}` : ""}${match.page_start ? ` · p. ${escapeHtml(match.page_start)}${match.page_end && match.page_end !== match.page_start ? `–${escapeHtml(match.page_end)}` : ""}` : ""}</span>`).join("")}
@@ -136,6 +136,7 @@ function resetEditor() {
   form.reset();
   form.elements.id.value = "";
   form.elements.media_category.value = "Book";
+  form.elements.currently_reading.checked = false;
   $("#item-contributors").innerHTML = "";
   $("#contents-list").innerHTML = "";
   $("#digital-files-list").innerHTML = "";
@@ -245,8 +246,9 @@ async function editItem(id) {
   const item = await api(`/api/items/${id}`);
   resetEditor();
   Object.entries(item).forEach(([key, value]) => {
-    if (form.elements[key] && value != null && typeof value !== "object") form.elements[key].value = value;
+    if (key !== "currently_reading" && form.elements[key] && value != null && typeof value !== "object") form.elements[key].value = value;
   });
+  form.elements.currently_reading.checked = Boolean(item.currently_reading);
   $("#item-contributors").innerHTML = "";
   item.contributors.forEach(addContributor);
   $("#contents-list").innerHTML = "";
@@ -267,6 +269,7 @@ function rowsToData(selector) {
 function formPayload() {
   const data = Object.fromEntries(new FormData(form));
   delete data.id;
+  data.currently_reading = form.elements.currently_reading.checked;
   data.contributors = rowsToData("#item-contributors .contributor-row").filter(c => c.name);
   data.contents = rowsToData("#contents-list .content-editor").filter(c => c.title).map((content, index) => ({
     ...content,
@@ -381,6 +384,15 @@ $("#clear-filters").addEventListener("click", () => {
 $("#import-file").addEventListener("change", event => event.target.files[0] && previewImport(event.target.files[0]));
 $("#delete-item").addEventListener("click", deleteItem);
 form.addEventListener("submit", saveEditor);
+form.elements.currently_reading.addEventListener("change", () => {
+  if (form.elements.currently_reading.checked && form.elements.reading_finished_on.value) {
+    form.elements.currently_reading.checked = false;
+    toast("Clear the finish date before marking this item currently reading");
+  }
+});
+form.elements.reading_finished_on.addEventListener("change", () => {
+  if (form.elements.reading_finished_on.value) form.elements.currently_reading.checked = false;
+});
 document.addEventListener("keydown", event => {
   if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") {
     event.preventDefault(); switchView("catalogue"); $("#search").focus();

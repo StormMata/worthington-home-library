@@ -53,6 +53,7 @@ kbd { margin-right: 16px; padding: 6px 8px; border: 1px solid var(--line); color
 .spine { width: 62px; height: 82px; background: var(--ink); color: var(--paper); display: grid; place-items: center; font-family: Georgia,serif; font-size: 12px; box-shadow: 4px 4px 0 var(--line); }
 .spine.anthology { background: var(--green); }
 .result-title { font-family: Georgia, serif; font-size: 24px; margin-bottom: 6px; }
+.reading-badge { display: inline-flex; margin-left: 10px; padding: 4px 7px 3px; vertical-align: 3px; border: 1px solid var(--red); color: var(--red); font: 800 9px/1 Inter, sans-serif; text-transform: uppercase; letter-spacing: .09em; }
 .result-sub, .result-meta, .location { color: var(--muted); font-size: 13px; line-height: 1.5; }
 .result-sub, .result-meta, .content-match { display: block; }
 .content-match { margin-top: 7px; color: var(--green); font-size: 12px; }
@@ -113,6 +114,20 @@ input, select, textarea { width: 100%; border: 1px solid var(--line); background
 input:focus, select:focus, textarea:focus { outline: 2px solid rgba(179,58,47,.22); border-color: var(--red); }
 textarea { resize: vertical; }
 .span-2 { grid-column: span 2; }
+.reading-progress { margin: 4px 0 0; padding: 18px; border: 1px solid var(--line); background: var(--paper); }
+.reading-progress legend { padding: 0 7px; color: var(--red); font: 700 12px Georgia, serif; text-transform: uppercase; letter-spacing: .08em; }
+.reading-toggle { display: grid; grid-template-columns: auto auto 1fr; align-items: center; gap: 10px; cursor: pointer; }
+.reading-toggle > input { position: absolute; opacity: 0; pointer-events: none; }
+.reading-toggle > span:last-child { display: flex; flex-direction: column; gap: 2px; }
+.reading-toggle strong { font-size: 13px; }
+.reading-toggle small, .reading-progress > p { color: var(--muted); font-size: 11px; }
+.toggle-track { width: 42px; height: 23px; padding: 3px; border: 1px solid var(--muted); background: var(--white); transition: .2s; }
+.toggle-track span { display: block; width: 15px; height: 15px; background: var(--muted); transition: .2s; }
+.reading-toggle input:checked + .toggle-track { border-color: var(--green); background: var(--green); }
+.reading-toggle input:checked + .toggle-track span { background: white; transform: translateX(19px); }
+.reading-toggle input:focus-visible + .toggle-track { outline: 2px solid rgba(179,58,47,.3); outline-offset: 2px; }
+.reading-dates { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line); }
+.reading-progress > p { margin: 12px 0 0; }
 .isbn-lookup { border: 1px solid var(--line); background: var(--paper); padding: 18px; }
 .lookup-heading, .lookup-actions { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
 .lookup-heading > div { display: flex; flex-direction: column; gap: 4px; }
@@ -168,6 +183,7 @@ textarea { resize: vertical; }
   nav .nav-button:last-child::after { content: "Data"; }
   kbd { display: none; }
   .form-grid { grid-template-columns: 1fr; }
+  .reading-dates { grid-template-columns: 1fr; }
   .span-2 { grid-column: span 1; }
   .comparison-row { grid-template-columns: 20px 1fr 64px; }
   .comparison-name { grid-column: 2; }

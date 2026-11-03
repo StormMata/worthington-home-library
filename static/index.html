@@ -137,6 +137,19 @@
             <label><span>Language</span><input name="language"></label>
             <label class="span-2"><span>Description</span><textarea name="description" rows="2"></textarea></label>
             <div id="isbn-lookup-result" class="isbn-lookup span-2" hidden aria-live="polite"></div>
+            <fieldset class="reading-progress span-2">
+              <legend>Reading progress</legend>
+              <label class="reading-toggle">
+                <input type="checkbox" name="currently_reading" value="true">
+                <span class="toggle-track" aria-hidden="true"><span></span></span>
+                <span><strong>Currently reading</strong><small>Show this status in the public catalogue</small></span>
+              </label>
+              <div class="reading-dates">
+                <label><span>Started reading</span><input type="date" name="reading_started_on"></label>
+                <label><span>Finished reading</span><input type="date" name="reading_finished_on"></label>
+              </div>
+              <p>Reading dates remain private and are never included in the public catalogue.</p>
+            </fieldset>
           </div>
         </section>
 

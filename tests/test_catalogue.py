@@ -73,6 +73,32 @@ class CatalogueTests(unittest.TestCase):
         self.assertEqual(3, record["volume_number"])
         self.assertEqual("cloth", record["metadata"]["binding"])
 
+    def test_reading_progress_round_trip_and_validation(self):
+        item_id = app.save_item({
+            "title": "Reading Copy",
+            "reading_started_on": "2026-11-01",
+            "currently_reading": True,
+        })
+        with app.connect() as db:
+            record = app.get_item(db, item_id)
+
+        self.assertEqual("2026-11-01", record["reading_started_on"])
+        self.assertIsNone(record["reading_finished_on"])
+        self.assertIs(record["currently_reading"], True)
+
+        with self.assertRaisesRegex(ValueError, "earlier than the start"):
+            app.save_item({
+                "title": "Impossible Dates",
+                "reading_started_on": "2026-11-03",
+                "reading_finished_on": "2026-11-02",
+            })
+        with self.assertRaisesRegex(ValueError, "cannot be marked currently reading"):
+            app.save_item({
+                "title": "Contradictory Status",
+                "reading_finished_on": "2026-11-03",
+                "currently_reading": True,
+            })
+
     def test_csv_anthology_rows_are_grouped(self):
         stream = io.StringIO()
         writer = csv.DictWriter(stream, fieldnames=[
@@ -161,6 +187,9 @@ class CatalogueTests(unittest.TestCase):
             "stack": "3",
             "shelf_row": "2",
             "shelf_position": "Right side",
+            "reading_started_on": "2026-10-01",
+            "reading_finished_on": None,
+            "currently_reading": True,
             "notes": "private item note",
             "metadata": {"price_paid": "$45", "provenance": "private"},
             "digital_files": [{"label": "Private scan", "relative_path": "private/public-book.pdf", "notes": "private file note"}],
@@ -178,6 +207,9 @@ class CatalogueTests(unittest.TestCase):
         self.assertEqual("Right side", record["shelf_position"])
         self.assertEqual("Visible Author", record["contributors"][0]["name"])
         self.assertEqual("12", record["contents"][0]["page_start"])
+        self.assertIs(record["currently_reading"], True)
+        self.assertNotIn("reading_started_on", record)
+        self.assertNotIn("reading_finished_on", record)
         for forbidden in ("notes", "metadata", "digital_files", "relative_path", "private scan", "private file note", "created_at", "updated_at", "private item note", "$45", "private content note"):
             self.assertNotIn(forbidden, serialized)
 

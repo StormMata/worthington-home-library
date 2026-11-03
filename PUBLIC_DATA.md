@@ -9,10 +9,12 @@ The public GitHub Pages site is generated from an explicit allowlist. Adding a n
 - Collection structure: set name, volume label, and volume number
 - Indexed contents: title, type, publication date, language, contributor names and roles, sequence, and page range
 - Physical location: stack, row, and shelf-position note
+- Reading status: whether an item is currently being read
 
 ## Never published
 
 - Item or contained-work notes
+- Reading start and finish dates
 - All custom metadata
 - Internal database IDs
 - Creation and modification timestamps

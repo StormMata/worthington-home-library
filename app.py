@@ -66,6 +66,9 @@ CREATE TABLE IF NOT EXISTS items (
     stack TEXT,
     shelf_row TEXT,
     shelf_position TEXT,
+    reading_started_on TEXT,
+    reading_finished_on TEXT,
+    currently_reading INTEGER NOT NULL DEFAULT 0 CHECK (currently_reading IN (0, 1)),
     notes TEXT,
     metadata_json TEXT NOT NULL DEFAULT '{}',
     created_at TEXT NOT NULL,
@@ -153,6 +156,16 @@ def init_db() -> None:
     DIGITAL_LIBRARY_DIR.mkdir(parents=True, exist_ok=True)
     with connect() as db:
         db.executescript(SCHEMA)
+        item_columns = {row[1] for row in db.execute("PRAGMA table_info(items)")}
+        migrations = {
+            "reading_started_on": "TEXT",
+            "reading_finished_on": "TEXT",
+            "currently_reading": "INTEGER NOT NULL DEFAULT 0 CHECK (currently_reading IN (0, 1))",
+        }
+        for column, definition in migrations.items():
+            if column not in item_columns:
+                db.execute(f"ALTER TABLE items ADD COLUMN {column} {definition}")
+        db.execute("CREATE INDEX IF NOT EXISTS idx_items_currently_reading ON items(currently_reading)")
 
 
 def clean_text(value):
@@ -169,6 +182,32 @@ def clean_number(value):
         return float(value)
     except (TypeError, ValueError):
         return None
+
+
+def clean_date(value, label: str):
+    value = clean_text(value)
+    if value is None:
+        return None
+    try:
+        datetime.strptime(value, "%Y-%m-%d")
+    except ValueError as exc:
+        raise ValueError(f"{label} must use YYYY-MM-DD format") from exc
+    return value
+
+
+def clean_bool(value) -> bool:
+    if isinstance(value, bool):
+        return value
+    if value in (None, "", 0):
+        return False
+    if isinstance(value, (int, float)):
+        return bool(value)
+    normalized = str(value).strip().casefold()
+    if normalized in {"true", "yes", "1", "on"}:
+        return True
+    if normalized in {"false", "no", "0", "off"}:
+        return False
+    raise ValueError("Currently reading must be true or false")
 
 
 def normalize_digital_path(value: str) -> str:
@@ -431,6 +470,7 @@ def rebuild_search(db: sqlite3.Connection, item_id: int) -> None:
 
 def item_summary(row: sqlite3.Row) -> dict:
     result = dict(row)
+    result["currently_reading"] = bool(result.get("currently_reading"))
     result["location"] = ", ".join(
         label for label in [
             f"Stack {result['stack']}" if result.get("stack") else None,
@@ -483,7 +523,8 @@ def get_item(db: sqlite3.Connection, item_id: int) -> dict | None:
 ITEM_FIELDS = [
     "title", "subtitle", "media_category", "item_type", "publication_date", "publisher", "edition",
     "identifier", "language", "description", "set_name", "volume_label", "volume_number", "stack",
-    "shelf_row", "shelf_position", "notes",
+    "shelf_row", "shelf_position", "reading_started_on", "reading_finished_on",
+    "currently_reading", "notes",
 ]
 
 
@@ -496,6 +537,14 @@ def save_item(payload: dict, item_id: int | None = None) -> int:
     values["media_category"] = values["media_category"] or "Book"
     values["item_type"] = values["item_type"] or "Single work"
     values["volume_number"] = clean_number(payload.get("volume_number"))
+    values["reading_started_on"] = clean_date(payload.get("reading_started_on"), "Reading start date")
+    values["reading_finished_on"] = clean_date(payload.get("reading_finished_on"), "Reading finish date")
+    values["currently_reading"] = int(clean_bool(payload.get("currently_reading")))
+    if values["reading_started_on"] and values["reading_finished_on"]:
+        if values["reading_started_on"] > values["reading_finished_on"]:
+            raise ValueError("Reading finish date cannot be earlier than the start date")
+    if values["currently_reading"] and values["reading_finished_on"]:
+        raise ValueError("An item with a finish date cannot be marked currently reading")
     values["metadata_json"] = json.dumps(metadata_value(payload.get("metadata")), ensure_ascii=False)
     now = utc_now()
     with connect() as db:
@@ -685,7 +734,7 @@ def export_records() -> list[dict]:
 PUBLIC_ITEM_FIELDS = (
     "title", "subtitle", "media_category", "item_type", "publication_date", "publisher", "edition",
     "identifier", "language", "description", "set_name", "volume_label", "volume_number", "stack",
-    "shelf_row", "shelf_position",
+    "shelf_row", "shelf_position", "currently_reading",
 )
 PUBLIC_CONTENT_FIELDS = (
     "title", "work_type", "publication_date", "language", "sequence_no", "page_start", "page_end",
@@ -707,6 +756,7 @@ def public_export_records() -> list[dict]:
         public_item = {
             field: item[field] for field in PUBLIC_ITEM_FIELDS
             if item.get(field) not in (None, "")
+            and (field != "currently_reading" or item.get(field) is True)
         }
         public_item["contributors"] = _public_contributors(item.get("contributors") or [])
         public_item["contents"] = []

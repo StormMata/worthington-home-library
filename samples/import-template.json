@@ -10,6 +10,9 @@
       "volume_number": 2,
       "stack": "1",
       "shelf_row": "3",
+      "reading_started_on": "2026-11-01",
+      "reading_finished_on": null,
+      "currently_reading": true,
       "contributors": [
         { "name": "Avery Editor", "role": "Editor" }
       ],
