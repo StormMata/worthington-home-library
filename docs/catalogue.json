@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "published_at": "2026-11-03T21:35:52+00:00",
+  "published_at": "2026-11-03T21:57:01+00:00",
   "items": [
     {
       "title": "1,000 Places to See Before You Die",
@@ -9,8 +9,8 @@
       "publication_date": "2011",
       "publisher": "Workman Publishing",
       "identifier": "9780761156864",
-      "stack": "3",
-      "shelf_row": "2",
+      "shelf_row": "3",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Patricia Schultz",
@@ -27,8 +27,8 @@
       "publisher": "LexisNexis",
       "identifier": "9781663366221",
       "language": "English",
-      "stack": "3",
-      "shelf_row": "1",
+      "shelf_row": "2",
+      "shelf_position": "Office",
       "contributors": [],
       "contents": []
     },
@@ -46,6 +46,24 @@
       "contributors": [
         {
           "name": "Adrienne N. Hew",
+          "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
+      "title": "601 words you need to know to pass your exam",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "2005",
+      "publisher": "Barron's",
+      "identifier": "978-0-7641-2816-5",
+      "language": "English",
+      "shelf_row": "2",
+      "shelf_position": "Office",
+      "contributors": [
+        {
+          "name": "Murray Bromberg",
           "role": "Author"
         }
       ],
@@ -81,6 +99,8 @@
       "publisher": "Chelsea Green Pub. Co.",
       "identifier": "978-1-931498-06-7",
       "language": "English",
+      "shelf_row": "2",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Julia Alvarez",
@@ -153,8 +173,8 @@
       "identifier": "978-8-8861-4879-4",
       "language": "English",
       "set_name": "Aspen Casebook Series",
-      "stack": "1",
       "shelf_row": "1",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Ronald A. Cass",
@@ -787,8 +807,8 @@
       "edition": "2",
       "identifier": "978-1-009-00919-5",
       "language": "English",
-      "stack": "3",
       "shelf_row": "2",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Thomas A. Garrity",
@@ -808,8 +828,8 @@
       "identifier": "978-1-64708-644-2",
       "language": "English",
       "set_name": "American Casebook Series",
-      "stack": "2",
       "shelf_row": "1",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Stephen A. Saltzburg",
@@ -938,6 +958,8 @@
       "publisher": "Penguin (Non-Classics)",
       "identifier": "978-0-14-303653-1",
       "language": "English",
+      "shelf_row": "2",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Neil Postman",
@@ -1521,8 +1543,8 @@
       "publisher": "PORTFOLIO / PENGUIN",
       "identifier": "978-1591842699",
       "language": "English",
-      "stack": "3",
       "shelf_row": "2",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Dan Roam",
@@ -1742,6 +1764,8 @@
       "publisher": "Houghton Mifflin Company",
       "identifier": "978-0-618-00104-0",
       "language": "English",
+      "shelf_row": "2",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Walter L. Arnstein",
@@ -1806,8 +1830,8 @@
       "edition": "4",
       "identifier": "0-7355-5744-6",
       "language": "English",
-      "stack": "3",
       "shelf_row": "1",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Robert W. Hamilton",
@@ -1866,6 +1890,8 @@
       "publisher": "Penguin Books in association with New Left Review",
       "identifier": "9780140445688",
       "language": "English",
+      "shelf_row": "2",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Karl Marx",
@@ -1884,8 +1910,8 @@
       "edition": "11",
       "identifier": "9780986370762",
       "language": "English",
-      "stack": "3",
       "shelf_row": "1",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Marc Patrick Cosentino",
@@ -2276,8 +2302,8 @@
       "edition": "6",
       "identifier": "978-1-5438-1560-3",
       "set_name": "Aspen Casebook Series",
-      "stack": "1",
       "shelf_row": "1",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Stephen N. Subrin",
@@ -2358,8 +2384,8 @@
       "identifier": "978-1-5438-1573-3",
       "language": "English",
       "set_name": "Aspen Casebook Series",
-      "stack": "2",
       "shelf_row": "1",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "William T. Allen",
@@ -2484,8 +2510,8 @@
       "publisher": "HarperCollins",
       "identifier": "978-0-06-220012-9",
       "language": "English",
-      "stack": "3",
       "shelf_row": "2",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "David Van Reybrouck",
@@ -2523,8 +2549,8 @@
       "identifier": "978-1-5438-2627-2",
       "language": "English",
       "set_name": "Aspen Casebook Series",
-      "stack": "1",
       "shelf_row": "1",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Randy E. Barnett",
@@ -2546,8 +2572,8 @@
       "publisher": "West Academic",
       "identifier": "979-8-89209-084-1",
       "language": "English",
-      "stack": "2",
       "shelf_row": "1",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "James D. Cox",
@@ -2575,8 +2601,8 @@
       "identifier": "9798892092289",
       "language": "English",
       "set_name": "University Casebook Series",
-      "stack": "2",
       "shelf_row": "1",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Matthew W. Finkin",
@@ -2638,6 +2664,25 @@
       "contributors": [
         {
           "name": "Alice Morse Earle",
+          "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
+      "title": "Cyanide & happiness",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "2010",
+      "publisher": "itbooks",
+      "identifier": "978-0-06-191479-9",
+      "language": "English",
+      "description": "A collection of \"Cyanide & Happiness\" comics, with selections from the online version as well as new strips in which various characters play pranks on each other and get into often grotesque or violent situations.",
+      "shelf_row": "2",
+      "shelf_position": "Office",
+      "contributors": [
+        {
+          "name": "Rob DenBleyker",
           "role": "Author"
         }
       ],
@@ -6159,8 +6204,8 @@
       "identifier": "978-1-64020-989-3",
       "language": "English",
       "set_name": "American Casebook Series",
-      "stack": "2",
       "shelf_row": "1",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Joel S. Newman",
@@ -6883,8 +6928,8 @@
       "edition": "2",
       "identifier": "978-0-472-03731-5",
       "language": "English",
-      "stack": "3",
       "shelf_row": "2",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Nigel A. Caplan",
@@ -6933,6 +6978,8 @@
       "publication_date": "2014",
       "publisher": "Bundeszentrale für politische Bildung",
       "language": "German",
+      "shelf_row": "2",
+      "shelf_position": "Office",
       "contributors": [],
       "contents": []
     },
@@ -7327,6 +7374,8 @@
       "publication_date": "Aug 25, 2009",
       "publisher": "Penguin Books",
       "identifier": "978-0-14-311610-3",
+      "shelf_row": "2",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Mark Mazower",
@@ -8124,6 +8173,8 @@
       "publisher": "Da Capo Press",
       "identifier": "978-0-306-80942-2",
       "language": "English",
+      "shelf_row": "2",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "T. R. Fehrenbach",
@@ -8978,6 +9029,25 @@
       "contents": []
     },
     {
+      "title": "Mythology",
+      "subtitle": "Timeless Tales of Gods and Heroes",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "August 1, 1999",
+      "publisher": "Grand Central Publishing",
+      "identifier": "0-446-60725-8",
+      "language": "English",
+      "shelf_row": "3",
+      "shelf_position": "Office",
+      "contributors": [
+        {
+          "name": "Edith Hamilton",
+          "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
       "title": "Native Universe",
       "subtitle": "Voices of Indian America",
       "media_category": "Book",
@@ -9071,6 +9141,8 @@
       "identifier": "978-0-374-50001-6",
       "language": "English",
       "description": "Born in the town of Sighet, Transylvania, Elie Wiesel was a teenager when he and his family were taken from their home in 1944 to Auschwitz concentration camp, and then to Buchenwald. Night is the terrifying record of Elie Wiesel's memories of the death of his family, the death of his own innocence, and his despair as a deeply observant Jew confronting the absolute evil of man. This new translation by his wife and most frequent translator, Marion Wiesel, corrects important details and presents the most accurate rendering in English of Elie Wiesel's testimony to what happened in the camps and of his unforgettable message that this horror must simply never be allowed to happen again.\n--back cover",
+      "shelf_row": "2",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Elie Wiesel",
@@ -9089,6 +9161,8 @@
       "identifier": "0-684-80448-4",
       "language": "English",
       "description": "Presenting an aspect of American history that has never been fully told, this Pulitzer Prize-winning work paints a detailed, intimate portrait of FDR and Eleanor Roosevelt and provides a brilliant narrative account of America during wartime. Photos. No Ordinary Time is a monumental work, a brilliantly conceived chronicle of one of the most vibrant and revolutionary periods in the history of the United States. With an extraordinary collection of details, Goodwin masterfully weaves together a striking number of story lines--Eleanor and Franklin's marriage and remarkable partnership, Eleanor's life as First Lady, and FDR's White House and its impact on America as well as on a world at war. Goodwin effectively melds these details and stories into an unforgettable and intimate portrait of Eleanor and Franklin Roosevelt and of the time during which a new, modern America was born.",
+      "shelf_row": "2",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Doris Kearns Goodwin",
@@ -9125,8 +9199,8 @@
       "identifier": "978-1-5438-4028-5",
       "language": "English",
       "set_name": "Aspen Casebook Series",
-      "stack": "1",
       "shelf_row": "1",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Babak Boghraty",
@@ -9773,8 +9847,8 @@
       "publisher": "The Lyons Press",
       "identifier": "9781585745395",
       "language": "English",
-      "stack": "3",
-      "shelf_row": "1",
+      "shelf_row": "2",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Bob Fancher",
@@ -11429,6 +11503,8 @@
       "publication_date": "Dec 15, 2015",
       "publisher": "Springer",
       "identifier": "978-3-319-23445-8",
+      "shelf_row": "2",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "James E. E. Monogan III III",
@@ -11517,8 +11593,8 @@
       "identifier": "978-1-5438-3855-8",
       "language": "English",
       "set_name": "Aspen Casebook Series",
-      "stack": "1",
       "shelf_row": "1",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Sanford Levinson",
@@ -11554,8 +11630,8 @@
       "identifier": "978-1-5438-3853-4",
       "language": "English",
       "set_name": "Aspen Casebook Series",
-      "stack": "1",
       "shelf_row": "1",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Joseph William Singer",
@@ -11997,8 +12073,8 @@
       "publisher": "University of Iowa Libraries",
       "identifier": "9780984037889",
       "language": "English",
-      "stack": "3",
       "shelf_row": "1",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Stella Burch Elias",
@@ -12086,8 +12162,8 @@
       "identifier": "978-1-5438-3847-3",
       "language": "English",
       "set_name": "Aspen Casebook Series",
-      "stack": "1",
       "shelf_row": "1",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "James D. Cox",
@@ -12116,8 +12192,8 @@
       "publisher": "West Academic Publishing",
       "identifier": "979-8-89209-051-3",
       "language": "English",
-      "stack": "2",
       "shelf_row": "1",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Carol L. Chomsky",
@@ -12747,11 +12823,48 @@
       "publisher": "Resilient Minds Publishing",
       "identifier": "9798348566623",
       "language": "English",
-      "stack": "3",
-      "shelf_row": "2",
+      "shelf_row": "1",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Mark Hartley",
+          "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
+      "title": "Stupid is forever",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "2014",
+      "publisher": "ABS-CBN Publishing, Inc.",
+      "identifier": "978-971-816-127-2",
+      "language": "English",
+      "shelf_row": "2",
+      "shelf_position": "Office",
+      "contributors": [
+        {
+          "name": "Miriam Defensor-Santiago",
+          "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
+      "title": "Stupid is forever more",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "2015",
+      "publisher": "ABS-CBN Publishing, Inc.",
+      "identifier": "978-971-816-134-0",
+      "language": "English, tgl",
+      "description": "Collection of wit and humor.",
+      "shelf_row": "2",
+      "shelf_position": "Office",
+      "contributors": [
+        {
+          "name": "Miriam Defensor-Santiago",
           "role": "Author"
         }
       ],
@@ -12766,6 +12879,8 @@
       "publisher": "Pearson",
       "identifier": "978-0-321-95330-8",
       "language": "English",
+      "shelf_row": "2",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Joseph M. Williams",
@@ -20105,6 +20220,25 @@
       "contents": []
     },
     {
+      "title": "The Blair Years",
+      "subtitle": "The Alastair Campbell Diaries",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "July 31, 2007",
+      "publisher": "Knopf",
+      "identifier": "978-0-307-26831-0",
+      "language": "English",
+      "shelf_row": "2",
+      "shelf_position": "Office",
+      "contributors": [
+        {
+          "name": "Alastair Campbell",
+          "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
       "title": "The blood of government",
       "subtitle": "race, empire, the United States, and the Philippines",
       "media_category": "Book",
@@ -20169,8 +20303,8 @@
       "publisher": "Publications International, Ltd.",
       "identifier": "9781450845809",
       "language": "English",
-      "stack": "3",
-      "shelf_row": "2",
+      "shelf_row": "3",
+      "shelf_position": "Office",
       "contributors": [],
       "contents": []
     },
@@ -20355,9 +20489,12 @@
       "media_category": "Book",
       "item_type": "Single work",
       "publication_date": "2014",
+      "publisher": "Dover",
       "identifier": "978-0-486-49636-8",
       "language": "English",
       "description": "This compilation of eighty-five articles explains and defends the ideals behind the highest form of law in the United States, the Constitution. The essays were written and published anonymously in New York newspapers during the years 1787 and 1788 by three of the Constitution's framers and ratifiers: Alexander Hamilton, General George Washington's Chief of Staff and first Secretary of the Treasury; John Jay, the first Chief Justice of the United States; and James Madison, father of the Constitution, author of the Bill of Rights, and fourth President of the United States.",
+      "shelf_row": "2",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Alexander Hamilton",
@@ -32355,6 +32492,24 @@
       ]
     },
     {
+      "title": "The Holt handbook",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "2002",
+      "publisher": "Harcourt College Publishers",
+      "identifier": "0-15-504512-1",
+      "language": "English",
+      "shelf_row": "2",
+      "shelf_position": "Office",
+      "contributors": [
+        {
+          "name": "Laurie G. Kirszner",
+          "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
       "title": "The Icon and the Axe",
       "subtitle": "An Interpretative History of Russian Culture",
       "media_category": "Book",
@@ -32362,6 +32517,8 @@
       "publication_date": "Dec 12, 1970",
       "publisher": "Vintage",
       "identifier": "9780394708461",
+      "shelf_row": "2",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "James H. Billington",
@@ -46926,8 +47083,8 @@
       "publisher": "McGraw-Hill",
       "identifier": "0-07-053448-9",
       "language": "English",
-      "stack": "3",
-      "shelf_row": "2",
+      "shelf_row": "1",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Ethan Rasiel",
@@ -47102,6 +47259,24 @@
       "contents": []
     },
     {
+      "title": "The Oxford illustrated history of modern China",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "2016",
+      "publisher": "Oxford University Press",
+      "identifier": "978-0-19-968375-8",
+      "language": "English",
+      "shelf_row": "2",
+      "shelf_position": "Office",
+      "contributors": [
+        {
+          "name": "Jeffrey N. Wasserstrom",
+          "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
       "title": "The Pen's Excellencie",
       "subtitle": "A pictorial history of western calligraphy",
       "media_category": "Book",
@@ -47200,6 +47375,25 @@
       "contents": []
     },
     {
+      "title": "The Princess Bride",
+      "subtitle": "S. Morgenstern's Classic Tale of True Love and High Adventure",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "October 8, 2007",
+      "publisher": "Harvest Books",
+      "identifier": "978-0-15-603521-7",
+      "language": "English",
+      "shelf_row": "2",
+      "shelf_position": "Office",
+      "contributors": [
+        {
+          "name": "William Goldman",
+          "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
       "title": "The Pyramid Principle",
       "subtitle": "Logic in writing and thinking",
       "media_category": "Book",
@@ -47209,8 +47403,8 @@
       "edition": "3",
       "identifier": "978-0-273-71051-6",
       "language": "English",
-      "stack": "3",
       "shelf_row": "2",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Barbara Minto",
@@ -47820,8 +48014,8 @@
       "identifier": "978-1-64708-489-9",
       "language": "English",
       "set_name": "University Casebook Series",
-      "stack": "2",
       "shelf_row": "1",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "Marc A. Franklin",
@@ -47855,6 +48049,8 @@
       "identifier": "0-671-86920-5",
       "language": "English",
       "description": "Drawing on newly discovered archival material and extensive interviews with Truman's own family, friends, and Washington colleagues, McCullough tells the deeply moving story of the seemingly ordinary \"man from Missouri\" who was perhaps the most courageous president in our history.",
+      "shelf_row": "2",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "David McCullough",
@@ -48109,6 +48305,8 @@
       "identifier": "978-1-4422-4225-8",
       "language": "English",
       "description": "Since World War II, civil wars have replaced interstate wars as the most frequent and deadly form of armed conflict globally. In this timely book, leading scholars guide us through what the latest research has to tell us about civil war onset, the duration and outcomes of civil wars, the recurrence of civil wars, and the consequences of conflict in war-torn countries, such as Syria, Sudan, and Rwanda. This authoritative text offers both an accessible and current overview of current knowledge and an agenda for future research. -- Back cover.",
+      "shelf_row": "2",
+      "shelf_position": "Office",
       "contributors": [
         {
           "name": "T. David Mason",
@@ -48193,6 +48391,24 @@
       "contributors": [
         {
           "name": "Madeline Puckette",
+          "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
+      "title": "Women Without Class Girls Race And Identity",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "2013",
+      "publisher": "University of California Press",
+      "identifier": "978-0-520-28001-4",
+      "language": "English",
+      "shelf_row": "2",
+      "shelf_position": "Office",
+      "contributors": [
+        {
+          "name": "Julie Bettie",
           "role": "Author"
         }
       ],
