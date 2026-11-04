@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "published_at": "2026-11-03T21:57:01+00:00",
+  "published_at": "2026-11-04T00:05:59+00:00",
   "items": [
     {
       "title": "1,000 Places to See Before You Die",
@@ -78,6 +78,8 @@
       "publisher": "David R. Godine",
       "identifier": "1-56792-100-0",
       "language": "English",
+      "stack": "2",
+      "shelf_row": "5",
       "contributors": [
         {
           "name": "Alexander Humez",
@@ -48288,6 +48290,7 @@
       "publication_date": "2026",
       "language": "English",
       "description": "A collection of 26 articles published between 1979 and 1981 in the AWCI's magazine, Horological Times. Typeset by u/gnomon_knows and downloaded from r/watchrepair.",
+      "shelf_position": "Digital",
       "contributors": [
         {
           "name": "Joseph Rugole",
