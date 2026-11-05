@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "published_at": "2026-11-04T00:05:59+00:00",
+  "published_at": "2026-11-05T13:31:12+00:00",
   "items": [
     {
       "title": "1,000 Places to See Before You Die",
@@ -2325,6 +2325,24 @@
         },
         {
           "name": "Alexandra D. Lahav",
+          "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
+      "title": "Collecting Clocks",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "July 1997",
+      "publisher": "World Publications (MA)",
+      "identifier": "1-57215-245-1",
+      "language": "English",
+      "stack": "1",
+      "shelf_row": "1",
+      "contributors": [
+        {
+          "name": "Derek Roberts",
           "role": "Author"
         }
       ],
@@ -6402,6 +6420,8 @@
       "publisher": "Barnes & Noble Classics",
       "identifier": "978-1-59308-115-7",
       "language": "English",
+      "shelf_row": "1",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Mary Shelley",
@@ -6701,6 +6721,8 @@
       "publisher": "Penguin Books",
       "identifier": "0-14-044660-5",
       "language": "English",
+      "shelf_row": "1",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Rüdiger Bubner",
@@ -6948,6 +6970,8 @@
       "publisher": "Penguin Books",
       "identifier": "978-0-14-143956-3",
       "language": "English",
+      "shelf_row": "1",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Charles Dickens",
@@ -6998,6 +7022,23 @@
       "contributors": [
         {
           "name": "Jonathan Swift",
+          "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
+      "title": "Handbook of the collection",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "2005",
+      "publisher": "Saint Louis Art Museum",
+      "identifier": "0-89178-087-4",
+      "language": "English",
+      "shelf_position": "Television",
+      "contributors": [
+        {
+          "name": "St. Louis Art Museum.",
           "role": "Author"
         }
       ],
@@ -7616,6 +7657,8 @@
       "publisher": "Dover Publications",
       "identifier": "978-0-486-41931-2",
       "language": "English",
+      "shelf_row": "1",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Harriet A. Jacobs",
@@ -9022,6 +9065,8 @@
       "publisher": "Cambridge University Press",
       "identifier": "978-0-521-53366-9",
       "language": "English",
+      "shelf_row": "1",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Robinson, David",
@@ -9219,6 +9264,8 @@
       "publisher": "Dover Publications",
       "identifier": "978-0-486-29097-3",
       "language": "English",
+      "shelf_row": "1",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "William Shakespeare",
@@ -9236,6 +9283,8 @@
       "identifier": "978-0-14-310576-3",
       "language": "English",
       "description": "Frado, a mixed-race girl abandoned by her white mother after the death of her black father, takes a job as a servant to a lower middle-class white family in the North, only to encounter a world of abuse and abandonment.",
+      "shelf_row": "1",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Harriet E. Wilson",
@@ -9260,9 +9309,11 @@
       "publisher": "Anchor Books",
       "identifier": "978-0-307-94710-9",
       "language": "English",
+      "shelf_row": "1",
+      "shelf_position": "Dining room",
       "contributors": [
         {
-          "name": "نجيب محفوظ",
+          "name": "Naguib Mahfouz",
           "role": "Author"
         }
       ],
@@ -11744,6 +11795,8 @@
       "publisher": "Knopf Doubleday Publishing Group",
       "identifier": "978-0-8041-7248-6",
       "language": "English",
+      "shelf_row": "1",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Joseph J. Ellis",
@@ -11820,6 +11873,8 @@
       "publisher": "Indiana University Press",
       "identifier": "0-253-20986-2",
       "language": "English",
+      "shelf_row": "1",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Rachel Calof",
@@ -11836,6 +11891,8 @@
       "publisher": "Penguin",
       "identifier": "0-14-044173-5",
       "language": "English",
+      "shelf_row": "1",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Denis Diderot",
@@ -11890,6 +11947,8 @@
       "publisher": "Penguin Classics",
       "identifier": "0-14-043204-3",
       "language": "English",
+      "shelf_row": "1",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Edmund Burke",
@@ -11969,6 +12028,8 @@
       "publisher": "Anvil Publishing",
       "identifier": "978-971-27-3266-9",
       "language": "English",
+      "shelf_row": "1",
+      "shelf_position": "Dining room",
       "contributors": [],
       "contents": []
     },
@@ -12041,6 +12102,8 @@
       "publisher": "Dover Publications",
       "identifier": "978-0-486-40893-4",
       "language": "English",
+      "shelf_row": "1",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Thomas Paine",
@@ -12226,6 +12289,8 @@
       "identifier": "978-0-521-14932-7",
       "language": "English",
       "description": "\"What did sex mean for ordinary people before the sexual revolution of the 1960s and 1970s? Often pitied by later generations as repressed, unfulfilled and full of moral anxiety, this book provides the first rounded, first-hand account of sexuality in marriage in the early and mid twentieth century. Based on vivid, compelling and frank testimonies from a socially and geographically diverse range of individuals, these award-winning authors look beyond the conventions of silence among the respectable majority to challenge stereotypes of ignorance and inhibition. The book explores a spectrum of sexual experiences, from learning about sex and sexual practices in courtship, to attitudes to the body, marital ideals and birth control, demonstrating that whilst the era's emphasis on silence and strict moral codes could for some be a source of inhibition and dissatisfaction, for many the culture of privacy and innocence was central to fulfilling and pleasurable intimate lives\"--Provided by publisher.",
+      "shelf_row": "1",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Simon Szreter",
@@ -12242,6 +12307,8 @@
       "publisher": "Stanford University Press",
       "identifier": "978-0-8047-4559-8",
       "language": "English",
+      "shelf_row": "1",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Matthew H. Sommer",
@@ -13098,6 +13165,23 @@
       "contents": []
     },
     {
+      "title": "The American Heritage History of The Great West",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "1965",
+      "publisher": "American Heritage Publishing Co.",
+      "language": "English",
+      "set_name": "The American Heritage Series",
+      "shelf_position": "Sofa right",
+      "contributors": [
+        {
+          "name": "David Lavender",
+          "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
       "title": "The American Revolution",
       "subtitle": "a history",
       "media_category": "Book",
@@ -13107,6 +13191,8 @@
       "identifier": "978-0-8129-7041-8",
       "language": "English",
       "description": "Presents a concise history of the American Revolution and the birth of the American republic, from the earliest hints of revolt and unrest through the ratification of the Constitution.",
+      "shelf_row": "1",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Gordon S. Wood",
@@ -20409,6 +20495,24 @@
       "contributors": [
         {
           "name": "Callum G. Brown",
+          "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
+      "title": "The definitive Kobbé's opera book",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "1987",
+      "publisher": "Putnam",
+      "identifier": "0-399-13180-9",
+      "language": "English",
+      "shelf_row": "2",
+      "shelf_position": "Dining room",
+      "contributors": [
+        {
+          "name": "Gustav Kobbé",
           "role": "Author"
         }
       ],
@@ -47160,6 +47264,8 @@
       "identifier": "0-140-44300-2",
       "language": "English, French",
       "description": "Suzanne Simonin, an illegitimate teenage girl, suffers mental and physical abuse after being forced to become a nun in eighteenth-century France.",
+      "shelf_row": "1",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Denis Diderot",
@@ -47212,6 +47318,8 @@
       "publisher": "Vintage Books",
       "identifier": "0-394-71935-2",
       "language": "English",
+      "shelf_row": "1",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Michel Foucault",
@@ -47307,6 +47415,8 @@
       "language": "English",
       "set_name": "The Philippines: A Past Revisited",
       "volume_number": 1.0,
+      "shelf_row": "1",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Renato Constantino",
@@ -47635,6 +47745,8 @@
       "publisher": "University of Michigan Press",
       "identifier": "978-0-472-03130-6",
       "language": "English",
+      "shelf_row": "1",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Michael B. Gross",
@@ -47807,6 +47919,8 @@
       "publisher": "Penguin Books",
       "identifier": "978-0-14-310585-5",
       "language": "English",
+      "shelf_row": "1",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Denise D. Knight",
@@ -47950,6 +48064,24 @@
       "contents": []
     },
     {
+      "title": "Tiffany favrile art glass",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "1997",
+      "publisher": "Schiffer",
+      "identifier": "0-7643-0207-8",
+      "language": "English",
+      "stack": "1",
+      "shelf_row": "1",
+      "contributors": [
+        {
+          "name": "Moise S. Steeg",
+          "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
       "title": "To Kill a Mockingbird",
       "media_category": "Book",
       "item_type": "Single work",
@@ -47957,6 +48089,8 @@
       "publisher": "HarperPerennial ModernClassics",
       "identifier": "978-0-06-093546-7",
       "language": "English",
+      "shelf_row": "1",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Harper Lee",
