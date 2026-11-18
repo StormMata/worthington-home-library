@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "published_at": "2026-11-05T13:31:12+00:00",
+  "published_at": "2026-11-18T22:46:59+00:00",
   "items": [
     {
       "title": "1,000 Places to See Before You Die",
@@ -1866,6 +1866,24 @@
       "contents": []
     },
     {
+      "title": "Calligraphic swash initials",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "1983",
+      "publisher": "Dover Publications",
+      "identifier": "0-486-24427-X",
+      "language": "English",
+      "shelf_row": "2",
+      "shelf_position": "Dining room",
+      "contributors": [
+        {
+          "name": "Arthur Baker",
+          "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
       "title": "Calligraphy for the Beginner",
       "media_category": "Book",
       "item_type": "Single work",
@@ -2113,6 +2131,8 @@
       "language": "English",
       "set_name": "Fryderyk Chopin Complete Works",
       "volume_number": 3.0,
+      "shelf_row": "3",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Fryderyk Franciszek Chopin",
@@ -2151,6 +2171,8 @@
       "identifier": "4-11-110020-1",
       "language": "Japanese",
       "set_name": "Zen-on piano library",
+      "shelf_row": "3",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Frédéric François Chopin",
@@ -2331,6 +2353,913 @@
       "contents": []
     },
     {
+      "title": "Classic and Romantic Compositions",
+      "media_category": "Book",
+      "item_type": "Anthology",
+      "publication_date": "1946",
+      "publisher": "Charles Scribner's Sons",
+      "set_name": "The Scribner Radio Music Library",
+      "volume_number": 1.0,
+      "shelf_row": "3",
+      "shelf_position": "Dining room",
+      "contributors": [
+        {
+          "name": "Albert E. Wier",
+          "role": "Editor"
+        }
+      ],
+      "contents": [
+        {
+          "title": "Adagio Cantabile (Pathétique Sonata)",
+          "work_type": "Piano composition",
+          "sequence_no": 1,
+          "page_start": "30",
+          "contributors": [
+            {
+              "name": "Ludwig van Beethoven",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Adagio (\"Moonlight\" Sonata)",
+          "work_type": "Piano composition",
+          "sequence_no": 2,
+          "page_start": "21",
+          "contributors": [
+            {
+              "name": "Ludwig van Beethoven",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Adagio (Octet, Op. 166)",
+          "work_type": "Piano composition",
+          "sequence_no": 3,
+          "page_start": "100",
+          "contributors": [
+            {
+              "name": "Franz Schubert",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Air for the G String",
+          "work_type": "Piano composition",
+          "sequence_no": 4,
+          "page_start": "16",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Andante (Fifth Symphony)",
+          "work_type": "Piano composition",
+          "sequence_no": 5,
+          "page_start": "40",
+          "contributors": [
+            {
+              "name": "Ludwig van Beethoven",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Andante (Kreutzer Sonata)",
+          "work_type": "Piano composition",
+          "sequence_no": 6,
+          "page_start": "26",
+          "contributors": [
+            {
+              "name": "Ludwig van Beethoven",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Andante (Orfeo e Euridice)",
+          "work_type": "Piano composition",
+          "sequence_no": 7,
+          "page_start": "47",
+          "contributors": [
+            {
+              "name": "Christoph Willibald Gluck",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Andante (Surprise Symphony)",
+          "work_type": "Piano composition",
+          "sequence_no": 8,
+          "page_start": "76",
+          "contributors": [
+            {
+              "name": "Joseph Haydn",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Aufschwung (Soaring), Op. 12",
+          "work_type": "Piano composition",
+          "sequence_no": 9,
+          "page_start": "206",
+          "contributors": [
+            {
+              "name": "Robert Schumann",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Ballet Music (Rosamunde)",
+          "work_type": "Piano composition",
+          "sequence_no": 10,
+          "page_start": "110",
+          "contributors": [
+            {
+              "name": "Franz Schubert",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Bourrée (Second Violin Sonata)",
+          "work_type": "Piano composition",
+          "sequence_no": 11,
+          "page_start": "18",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Bourrée (Armide)",
+          "work_type": "Piano composition",
+          "sequence_no": 12,
+          "page_start": "51",
+          "contributors": [
+            {
+              "name": "Christoph Willibald Gluck",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Bourrée",
+          "work_type": "Piano composition",
+          "sequence_no": 13,
+          "page_start": "60",
+          "contributors": [
+            {
+              "name": "George Frideric Handel",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Caprice (Alceste)",
+          "work_type": "Piano composition",
+          "sequence_no": 14,
+          "page_start": "54",
+          "contributors": [
+            {
+              "name": "Christoph Willibald Gluck",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Confidence",
+          "work_type": "Piano composition",
+          "sequence_no": 15,
+          "page_start": "170",
+          "contributors": [
+            {
+              "name": "Felix Mendelssohn",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Consolation, No. 5",
+          "work_type": "Piano composition",
+          "sequence_no": 16,
+          "page_start": "232",
+          "contributors": [
+            {
+              "name": "Franz Liszt",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Consolation",
+          "work_type": "Piano composition",
+          "sequence_no": 17,
+          "page_start": "172",
+          "contributors": [
+            {
+              "name": "Felix Mendelssohn",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Dream of Love (Liebestraum)",
+          "work_type": "Piano composition",
+          "sequence_no": 18,
+          "page_start": "234",
+          "contributors": [
+            {
+              "name": "Franz Liszt",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Scotch Dances (Écossaisen)",
+          "work_type": "Piano composition",
+          "sequence_no": 19,
+          "page_start": "34",
+          "contributors": [
+            {
+              "name": "Ludwig van Beethoven",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Entr'acte (Rosamunde)",
+          "work_type": "Piano composition",
+          "sequence_no": 20,
+          "page_start": "107",
+          "contributors": [
+            {
+              "name": "Franz Schubert",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Für Elise",
+          "work_type": "Piano composition",
+          "sequence_no": 21,
+          "page_start": "27",
+          "contributors": [
+            {
+              "name": "Ludwig van Beethoven",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Gavotte (Sixth Violin Sonata)",
+          "work_type": "Piano composition",
+          "sequence_no": 22,
+          "page_start": "12",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Gavotte (Iphigenie)",
+          "work_type": "Piano composition",
+          "sequence_no": 23,
+          "page_start": "48",
+          "contributors": [
+            {
+              "name": "Christoph Willibald Gluck",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Gavotte",
+          "work_type": "Piano composition",
+          "sequence_no": 24,
+          "page_start": "56",
+          "contributors": [
+            {
+              "name": "François-Joseph Gossec",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Gavotte",
+          "work_type": "Piano composition",
+          "sequence_no": 25,
+          "page_start": "84",
+          "contributors": [
+            {
+              "name": "Giovanni Battista Martini",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "German Dance",
+          "work_type": "Piano composition",
+          "sequence_no": 26,
+          "page_start": "58",
+          "contributors": [
+            {
+              "name": "Carl Ditters von Dittersdorf",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Gipsy Rondo",
+          "work_type": "Piano composition",
+          "sequence_no": 27,
+          "page_start": "64",
+          "contributors": [
+            {
+              "name": "Joseph Haydn",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Hark! Hark! the Lark!",
+          "work_type": "Piano composition",
+          "sequence_no": 28,
+          "page_start": "116",
+          "contributors": [
+            {
+              "name": "Franz Schubert",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Hungarian Rhapsody, No. 2",
+          "work_type": "Piano composition",
+          "sequence_no": 29,
+          "page_start": "240",
+          "contributors": [
+            {
+              "name": "Franz Liszt",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Invitation to the Dance",
+          "work_type": "Piano composition",
+          "sequence_no": 30,
+          "page_start": "160",
+          "contributors": [
+            {
+              "name": "Carl Maria von Weber",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Kamennoi-Ostrow, Op. 10, No. 22",
+          "work_type": "Piano composition",
+          "sequence_no": 31,
+          "page_start": "222",
+          "contributors": [
+            {
+              "name": "Anton Rubinstein",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Loure (Cello Suite)",
+          "work_type": "Piano composition",
+          "sequence_no": 32,
+          "page_start": "8",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Marche Militaire",
+          "work_type": "Piano composition",
+          "sequence_no": 33,
+          "page_start": "113",
+          "contributors": [
+            {
+              "name": "Franz Schubert",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Mazurka, Op. 7, No. 1",
+          "work_type": "Piano composition",
+          "sequence_no": 34,
+          "page_start": "158",
+          "contributors": [
+            {
+              "name": "Frédéric Chopin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Melody in F",
+          "work_type": "Piano composition",
+          "sequence_no": 35,
+          "page_start": "216",
+          "contributors": [
+            {
+              "name": "Anton Rubinstein",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Minuets (2d Partitur)",
+          "work_type": "Piano composition",
+          "sequence_no": 36,
+          "page_start": "10",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Minuet in G",
+          "work_type": "Piano composition",
+          "sequence_no": 37,
+          "page_start": "24",
+          "contributors": [
+            {
+              "name": "Ludwig van Beethoven",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Minuet in A",
+          "work_type": "Piano composition",
+          "sequence_no": 38,
+          "page_start": "88",
+          "contributors": [
+            {
+              "name": "Luigi Boccherini",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Minuet (Symphony in D)",
+          "work_type": "Piano composition",
+          "sequence_no": 39,
+          "page_start": "74",
+          "contributors": [
+            {
+              "name": "Joseph Haydn",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Minuet (Divertimento, No. 1)",
+          "work_type": "Piano composition",
+          "sequence_no": 40,
+          "page_start": "132",
+          "contributors": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Minuet (Don Juan)",
+          "work_type": "Piano composition",
+          "sequence_no": 41,
+          "page_start": "122",
+          "contributors": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Minuet (Sonata, Op. 78)",
+          "work_type": "Piano composition",
+          "sequence_no": 42,
+          "page_start": "104",
+          "contributors": [
+            {
+              "name": "Franz Schubert",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "\"Minute\" Waltz, Op. 64, No. 1",
+          "work_type": "Piano composition",
+          "sequence_no": 43,
+          "page_start": "149",
+          "contributors": [
+            {
+              "name": "Frédéric Chopin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Moment Musical, Op. 94, No. 3",
+          "work_type": "Piano composition",
+          "sequence_no": 44,
+          "page_start": "102",
+          "contributors": [
+            {
+              "name": "Franz Schubert",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Nachtstück, Op. 23, No. 4",
+          "work_type": "Piano composition",
+          "sequence_no": 45,
+          "page_start": "199",
+          "contributors": [
+            {
+              "name": "Robert Schumann",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Nocturne, Op. 9, No. 2",
+          "work_type": "Piano composition",
+          "sequence_no": 46,
+          "page_start": "137",
+          "contributors": [
+            {
+              "name": "Frédéric Chopin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Nocturne, Op. 55, No. 1",
+          "work_type": "Piano composition",
+          "sequence_no": 47,
+          "page_start": "140",
+          "contributors": [
+            {
+              "name": "Frédéric Chopin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Nocturne in B-flat",
+          "work_type": "Piano composition",
+          "sequence_no": 48,
+          "page_start": "135",
+          "contributors": [
+            {
+              "name": "John Field",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Prelude in C",
+          "work_type": "Piano composition",
+          "sequence_no": 49,
+          "page_start": "6",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Prelude, Op. 28, No. 4",
+          "work_type": "Piano composition",
+          "sequence_no": 50,
+          "page_start": "152",
+          "contributors": [
+            {
+              "name": "Frédéric Chopin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Prelude, Op. 28, No. 5",
+          "work_type": "Piano composition",
+          "sequence_no": 51,
+          "page_start": "153",
+          "contributors": [
+            {
+              "name": "Frédéric Chopin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Prelude, Op. 28, No. 6",
+          "work_type": "Piano composition",
+          "sequence_no": 52,
+          "page_start": "154",
+          "contributors": [
+            {
+              "name": "Frédéric Chopin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Prelude, Op. 28, No. 7",
+          "work_type": "Piano composition",
+          "sequence_no": 53,
+          "page_start": "155",
+          "contributors": [
+            {
+              "name": "Frédéric Chopin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Prelude, Op. 28, No. 23",
+          "work_type": "Piano composition",
+          "sequence_no": 54,
+          "page_start": "156",
+          "contributors": [
+            {
+              "name": "Frédéric Chopin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Romance",
+          "work_type": "Piano composition",
+          "sequence_no": 55,
+          "page_start": "230",
+          "contributors": [
+            {
+              "name": "Anton Rubinstein",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Rondo Capriccioso, Op. 14",
+          "work_type": "Piano composition",
+          "sequence_no": 56,
+          "page_start": "182",
+          "contributors": [
+            {
+              "name": "Felix Mendelssohn",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Sarabande",
+          "work_type": "Piano composition",
+          "sequence_no": 57,
+          "page_start": "62",
+          "contributors": [
+            {
+              "name": "George Frideric Handel",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Slumber Song (Schlummerlied), Op. 124, No. 16",
+          "work_type": "Piano composition",
+          "sequence_no": 58,
+          "page_start": "202",
+          "contributors": [
+            {
+              "name": "Robert Schumann",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Serenade (Quartet)",
+          "work_type": "Piano composition",
+          "sequence_no": 59,
+          "page_start": "71",
+          "contributors": [
+            {
+              "name": "Joseph Haydn",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Serenade",
+          "work_type": "Piano composition",
+          "sequence_no": 60,
+          "page_start": "118",
+          "contributors": [
+            {
+              "name": "Franz Schubert",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Sonata in C (First Movement)",
+          "work_type": "Piano composition",
+          "sequence_no": 61,
+          "page_start": "128",
+          "contributors": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Spinning Song",
+          "work_type": "Piano composition",
+          "sequence_no": 62,
+          "page_start": "173",
+          "contributors": [
+            {
+              "name": "Felix Mendelssohn",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Spring Song",
+          "work_type": "Piano composition",
+          "sequence_no": 63,
+          "page_start": "178",
+          "contributors": [
+            {
+              "name": "Felix Mendelssohn",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Le Tambourin",
+          "work_type": "Piano composition",
+          "sequence_no": 64,
+          "page_start": "82",
+          "contributors": [
+            {
+              "name": "Jean-Philippe Rameau",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Tempo di Ballo",
+          "work_type": "Piano composition",
+          "sequence_no": 65,
+          "page_start": "80",
+          "contributors": [
+            {
+              "name": "Domenico Scarlatti",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Toreador et Andalouse",
+          "work_type": "Piano composition",
+          "sequence_no": 66,
+          "page_start": "213",
+          "contributors": [
+            {
+              "name": "Anton Rubinstein",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Träumerei",
+          "work_type": "Piano composition",
+          "sequence_no": 67,
+          "page_start": "198",
+          "contributors": [
+            {
+              "name": "Robert Schumann",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Turkish March (Ruins of Athens)",
+          "work_type": "Piano composition",
+          "sequence_no": 68,
+          "page_start": "44",
+          "contributors": [
+            {
+              "name": "Ludwig van Beethoven",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Turkish March",
+          "work_type": "Piano composition",
+          "sequence_no": 69,
+          "page_start": "124",
+          "contributors": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Unfinished Symphony",
+          "work_type": "Piano composition",
+          "sequence_no": 70,
+          "page_start": "91",
+          "contributors": [
+            {
+              "name": "Franz Schubert",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Waltz, Op. 34, No. 2",
+          "work_type": "Piano composition",
+          "sequence_no": 71,
+          "page_start": "144",
+          "contributors": [
+            {
+              "name": "Frédéric Chopin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Waltzes, Op. 9a",
+          "work_type": "Piano composition",
+          "sequence_no": 72,
+          "page_start": "96",
+          "contributors": [
+            {
+              "name": "Franz Schubert",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Why? (Warum?), Op. 12",
+          "work_type": "Piano composition",
+          "sequence_no": 73,
+          "page_start": "212",
+          "contributors": [
+            {
+              "name": "Robert Schumann",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Wedding March",
+          "work_type": "Piano composition",
+          "sequence_no": 74,
+          "page_start": "193",
+          "contributors": [
+            {
+              "name": "Felix Mendelssohn",
+              "role": "Composer"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "Collecting Clocks",
       "media_category": "Book",
       "item_type": "Single work",
@@ -2446,6 +3375,8 @@
       "publisher": "Dover Publications",
       "identifier": "0-486-24563-2",
       "language": "English",
+      "shelf_row": "3",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Ludwig van Beethoven",
@@ -2513,6 +3444,8 @@
       "identifier": "K. 595",
       "set_name": "Schirmer's Library of Musical Classics",
       "volume_number": 1721.0,
+      "shelf_row": "3",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Wolfgang Amadeus Mozart",
@@ -2716,6 +3649,8 @@
       "publisher": "Hal Leonard",
       "set_name": "Schirmer's Library of Musical Classics",
       "volume_number": 147.0,
+      "shelf_row": "3",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Carl Czerny",
@@ -2999,6 +3934,25 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Dictionary of Marks",
+      "subtitle": "POTTERY/PORCELAIN (1580-1880)",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "December 13, 1953",
+      "publisher": "Random House Reference",
+      "identifier": "0-517-00141-1",
+      "language": "English",
+      "shelf_row": "3",
+      "shelf_position": "Dining room",
+      "contributors": [
+        {
+          "name": "Ralph Kovel",
+          "role": "Author"
+        }
+      ],
+      "contents": []
     },
     {
       "title": "Discourse on method and Meditations on first philosophy",
@@ -7686,6 +8640,8 @@
       "item_type": "Single work",
       "publisher": "ZEN-ON Music Co., Ltd.",
       "language": "Japanese",
+      "shelf_row": "3",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Johann Sebastian Bach",
@@ -8032,6 +8988,1177 @@
         }
       ],
       "contents": []
+    },
+    {
+      "title": "Library Of Piano Favorites",
+      "media_category": "Book",
+      "item_type": "Anthology",
+      "publication_date": "December 31, 1997",
+      "publisher": "Amsco Publications",
+      "identifier": "0-8256-1613-1",
+      "language": "English",
+      "shelf_row": "3",
+      "shelf_position": "Dining room",
+      "contributors": [
+        {
+          "name": "Amy Appleby",
+          "role": "Author"
+        }
+      ],
+      "contents": [
+        {
+          "title": "Minuet in G",
+          "work_type": "Piano piece",
+          "sequence_no": 1,
+          "page_start": "4",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Prelude No. 2",
+          "work_type": "Piano piece",
+          "sequence_no": 2,
+          "page_start": "5",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Two-Part Invention No. 8",
+          "work_type": "Piano piece",
+          "sequence_no": 3,
+          "page_start": "6",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Gavotte",
+          "work_type": "Piano piece",
+          "sequence_no": 4,
+          "page_start": "8",
+          "contributors": [
+            {
+              "name": "Johann Sebastian Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Minuet",
+          "work_type": "Piano piece",
+          "sequence_no": 5,
+          "page_start": "9",
+          "contributors": [
+            {
+              "name": "Luigi Boccherini",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Le Petit-Rien",
+          "work_type": "Piano piece",
+          "sequence_no": 6,
+          "page_start": "12",
+          "contributors": [
+            {
+              "name": "François Couperin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Air",
+          "work_type": "Piano piece",
+          "sequence_no": 7,
+          "page_start": "14",
+          "contributors": [
+            {
+              "name": "George Frideric Handel",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Sarabande",
+          "work_type": "Piano piece",
+          "sequence_no": 8,
+          "page_start": "16",
+          "contributors": [
+            {
+              "name": "George Frideric Handel",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Trumpet Voluntary",
+          "work_type": "Piano piece",
+          "sequence_no": 9,
+          "page_start": "17",
+          "contributors": [
+            {
+              "name": "Henry Purcell",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Sonata in D Minor",
+          "work_type": "Piano piece",
+          "sequence_no": 10,
+          "page_start": "20",
+          "contributors": [
+            {
+              "name": "Domenico Scarlatti",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Solfeggio",
+          "work_type": "Piano piece",
+          "sequence_no": 11,
+          "page_start": "22",
+          "contributors": [
+            {
+              "name": "Carl Philipp Emanuel Bach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Für Elise",
+          "work_type": "Piano piece",
+          "sequence_no": 12,
+          "page_start": "24",
+          "contributors": [
+            {
+              "name": "Ludwig van Beethoven",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Moonlight Sonata",
+          "work_type": "Piano piece",
+          "sequence_no": 13,
+          "page_start": "28",
+          "contributors": [
+            {
+              "name": "Ludwig van Beethoven",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Gavotte",
+          "work_type": "Piano piece",
+          "sequence_no": 14,
+          "page_start": "32",
+          "contributors": [
+            {
+              "name": "François Joseph Gossec",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Allegro in F",
+          "work_type": "Piano piece",
+          "sequence_no": 15,
+          "page_start": "34",
+          "contributors": [
+            {
+              "name": "Franz Joseph Haydn",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Andante",
+          "work_type": "Piano piece",
+          "sequence_no": 16,
+          "page_start": "35",
+          "contributors": [
+            {
+              "name": "Franz Joseph Haydn",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Adagio",
+          "work_type": "Piano piece",
+          "sequence_no": 17,
+          "page_start": "36",
+          "contributors": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Air",
+          "work_type": "Piano piece",
+          "sequence_no": 18,
+          "page_start": "37",
+          "contributors": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Lacrimosa",
+          "work_type": "Piano piece",
+          "sequence_no": 19,
+          "page_start": "38",
+          "contributors": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Waltz in G",
+          "work_type": "Piano piece",
+          "sequence_no": 20,
+          "page_start": "40",
+          "contributors": [
+            {
+              "name": "Carl Maria von Weber",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Allemande",
+          "work_type": "Piano piece",
+          "sequence_no": 21,
+          "page_start": "41",
+          "contributors": [
+            {
+              "name": "Carl Maria von Weber",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Malagueña",
+          "work_type": "Piano piece",
+          "sequence_no": 22,
+          "page_start": "42",
+          "contributors": [
+            {
+              "name": "Isaac Albéniz",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Waltz in A-Flat",
+          "work_type": "Piano piece",
+          "sequence_no": 23,
+          "page_start": "46",
+          "contributors": [
+            {
+              "name": "Johannes Brahms",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Prelude in E Minor",
+          "work_type": "Piano piece",
+          "sequence_no": 24,
+          "page_start": "48",
+          "contributors": [
+            {
+              "name": "Frédéric Chopin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "The Minute Waltz",
+          "work_type": "Piano piece",
+          "sequence_no": 25,
+          "page_start": "50",
+          "contributors": [
+            {
+              "name": "Frédéric Chopin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Polonaise",
+          "work_type": "Piano piece",
+          "sequence_no": 26,
+          "page_start": "53",
+          "contributors": [
+            {
+              "name": "Frédéric Chopin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Pomp and Circumstance",
+          "work_type": "Piano piece",
+          "sequence_no": 27,
+          "page_start": "56",
+          "contributors": [
+            {
+              "name": "Edward Elgar",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Liebestraum",
+          "work_type": "Piano piece",
+          "sequence_no": 28,
+          "page_start": "60",
+          "contributors": [
+            {
+              "name": "Franz Liszt",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Wedding March",
+          "work_type": "Piano piece",
+          "sequence_no": 29,
+          "page_start": "63",
+          "contributors": [
+            {
+              "name": "Felix Mendelssohn",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Dance of the Clowns",
+          "work_type": "Piano piece",
+          "sequence_no": 30,
+          "page_start": "64",
+          "contributors": [
+            {
+              "name": "Felix Mendelssohn",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Serenade",
+          "work_type": "Piano piece",
+          "sequence_no": 31,
+          "page_start": "66",
+          "contributors": [
+            {
+              "name": "Franz Schubert",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Ave Maria",
+          "work_type": "Piano piece",
+          "sequence_no": 32,
+          "page_start": "68",
+          "contributors": [
+            {
+              "name": "Franz Schubert",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "The Beautiful Blue Danube",
+          "work_type": "Piano piece",
+          "sequence_no": 33,
+          "page_start": "70",
+          "contributors": [
+            {
+              "name": "Johann Strauss",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Piano Concerto No. 1",
+          "work_type": "Piano piece",
+          "sequence_no": 34,
+          "page_start": "76",
+          "contributors": [
+            {
+              "name": "Peter Ilyich Tchaikovsky",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Traumerei",
+          "work_type": "Piano piece",
+          "sequence_no": 35,
+          "page_start": "78",
+          "contributors": [
+            {
+              "name": "Robert Schumann",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Rêverie",
+          "work_type": "Piano piece",
+          "sequence_no": 36,
+          "page_start": "79",
+          "contributors": [
+            {
+              "name": "Claude Debussy",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Clair de Lune",
+          "work_type": "Piano piece",
+          "sequence_no": 37,
+          "page_start": "84",
+          "contributors": [
+            {
+              "name": "Claude Debussy",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Humoresque",
+          "work_type": "Piano piece",
+          "sequence_no": 38,
+          "page_start": "88",
+          "contributors": [
+            {
+              "name": "Antonin Dvořák",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Playera",
+          "work_type": "Piano piece",
+          "sequence_no": 39,
+          "page_start": "90",
+          "contributors": [
+            {
+              "name": "Enrique Granados",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "To a Wild Rose",
+          "work_type": "Piano piece",
+          "sequence_no": 40,
+          "page_start": "94",
+          "contributors": [
+            {
+              "name": "Edward MacDowell",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Narcissus",
+          "work_type": "Piano piece",
+          "sequence_no": 41,
+          "page_start": "96",
+          "contributors": [
+            {
+              "name": "Ethelbert Nevin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "The Swan",
+          "work_type": "Piano piece",
+          "sequence_no": 42,
+          "page_start": "100",
+          "contributors": [
+            {
+              "name": "Camille Saint-Saëns",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Trois Gymnopédies",
+          "work_type": "Piano piece",
+          "sequence_no": 43,
+          "page_start": "102",
+          "contributors": [
+            {
+              "name": "Erik Satie",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Pizzicati (from Sylvia)",
+          "work_type": "Piano piece",
+          "sequence_no": 44,
+          "page_start": "108",
+          "contributors": [
+            {
+              "name": "Léo Delibes",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Polovtsian Dance (from Prince Igor)",
+          "work_type": "Piano piece",
+          "sequence_no": 45,
+          "page_start": "110",
+          "contributors": [
+            {
+              "name": "Alexander Borodin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Anitra's Dance (from Peer Gynt)",
+          "work_type": "Piano piece",
+          "sequence_no": 46,
+          "page_start": "111",
+          "contributors": [
+            {
+              "name": "Edvard Grieg",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "March of the Toys (from Babes in Toyland)",
+          "work_type": "Piano piece",
+          "sequence_no": 47,
+          "page_start": "114",
+          "contributors": [
+            {
+              "name": "Victor Herbert",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Minuet (from Don Juan)",
+          "work_type": "Piano piece",
+          "sequence_no": 48,
+          "page_start": "120",
+          "contributors": [
+            {
+              "name": "Wolfgang Amadeus Mozart",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Musetta's Waltz (from La Bohème)",
+          "work_type": "Piano piece",
+          "sequence_no": 49,
+          "page_start": "121",
+          "contributors": [
+            {
+              "name": "Giacomo Puccini",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Can Can (from Orpheus)",
+          "work_type": "Piano piece",
+          "sequence_no": 50,
+          "page_start": "124",
+          "contributors": [
+            {
+              "name": "Jacques Offenbach",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "The Young Prince and the Young Princess (from Sheherazade)",
+          "work_type": "Piano piece",
+          "sequence_no": 51,
+          "page_start": "128",
+          "contributors": [
+            {
+              "name": "Nikolai Rimsky-Korsakov",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "I'm Called Little Buttercup (from H.M.S. Pinafore)",
+          "work_type": "Piano piece",
+          "sequence_no": 52,
+          "page_start": "129",
+          "contributors": [
+            {
+              "name": "Arthur Sullivan",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Waltz of the Flowers (from The Nutcracker)",
+          "work_type": "Piano piece",
+          "sequence_no": 53,
+          "page_start": "132",
+          "contributors": [
+            {
+              "name": "Peter Ilyich Tchaikovsky",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Grand March (from Aida)",
+          "work_type": "Piano piece",
+          "sequence_no": 54,
+          "page_start": "134",
+          "contributors": [
+            {
+              "name": "Giuseppe Verdi",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Bridal Chorus (from Lohengrin)",
+          "work_type": "Piano piece",
+          "sequence_no": 55,
+          "page_start": "136",
+          "contributors": [
+            {
+              "name": "Richard Wagner",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Maple Leaf Rag",
+          "work_type": "Piano piece",
+          "sequence_no": 56,
+          "page_start": "138",
+          "contributors": [
+            {
+              "name": "Scott Joplin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Nola",
+          "work_type": "Piano piece",
+          "sequence_no": 57,
+          "page_start": "141",
+          "contributors": [
+            {
+              "name": "Felix Arndt",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "12th Street Rag",
+          "work_type": "Piano piece",
+          "sequence_no": 58,
+          "page_start": "146",
+          "contributors": [
+            {
+              "name": "Euday L. Bowman",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "The Chevy Chase",
+          "work_type": "Piano piece",
+          "sequence_no": 59,
+          "page_start": "150",
+          "contributors": [
+            {
+              "name": "Eubie Blake",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Bugle Call Rag",
+          "work_type": "Piano piece",
+          "sequence_no": 60,
+          "page_start": "154",
+          "contributors": [
+            {
+              "name": "Eubie Blake",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Kitten on the Keys",
+          "work_type": "Piano piece",
+          "sequence_no": 61,
+          "page_start": "158",
+          "contributors": [
+            {
+              "name": "Zez Confrey",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "You Tell 'Em Ivories",
+          "work_type": "Piano piece",
+          "sequence_no": 62,
+          "page_start": "162",
+          "contributors": [
+            {
+              "name": "Zez Confrey",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Rialto Ripples",
+          "work_type": "Piano piece",
+          "sequence_no": 63,
+          "page_start": "166",
+          "contributors": [
+            {
+              "name": "George Gershwin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "The Banjo",
+          "work_type": "Piano piece",
+          "sequence_no": 64,
+          "page_start": "170",
+          "contributors": [
+            {
+              "name": "Louis Moreaux Gottschalk",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "The Entertainer",
+          "work_type": "Piano piece",
+          "sequence_no": 65,
+          "page_start": "178",
+          "contributors": [
+            {
+              "name": "Scott Joplin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Solace",
+          "work_type": "Piano piece",
+          "sequence_no": 66,
+          "page_start": "182",
+          "contributors": [
+            {
+              "name": "Scott Joplin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Jelly Roll Blues",
+          "work_type": "Piano piece",
+          "sequence_no": 67,
+          "page_start": "186",
+          "contributors": [
+            {
+              "name": "Jelly Roll Morton",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "The Whistler and His Dog",
+          "work_type": "Piano piece",
+          "sequence_no": 68,
+          "page_start": "190",
+          "contributors": [
+            {
+              "name": "Arthur Pryor",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "The Stars and Stripes Forever",
+          "work_type": "Piano piece",
+          "sequence_no": 69,
+          "page_start": "194",
+          "contributors": [
+            {
+              "name": "John Philip Sousa",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Amazing Grace",
+          "work_type": "Piano piece",
+          "sequence_no": 70,
+          "page_start": "198",
+          "contributors": [
+            {
+              "name": "American folk hymn",
+              "role": "Traditional source"
+            }
+          ]
+        },
+        {
+          "title": "El Choclo",
+          "work_type": "Piano piece",
+          "sequence_no": 71,
+          "page_start": "200",
+          "contributors": [
+            {
+              "name": "A. G. Villoldo",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Country Gardens",
+          "work_type": "Piano piece",
+          "sequence_no": 72,
+          "page_start": "202",
+          "contributors": [
+            {
+              "name": "English morris dance",
+              "role": "Traditional source"
+            }
+          ]
+        },
+        {
+          "title": "Greensleeves (What Child Is This)",
+          "work_type": "Piano piece",
+          "sequence_no": 73,
+          "page_start": "204",
+          "contributors": [
+            {
+              "name": "English ballad",
+              "role": "Traditional source"
+            }
+          ]
+        },
+        {
+          "title": "Santa Lucia",
+          "work_type": "Piano piece",
+          "sequence_no": 74,
+          "page_start": "205",
+          "contributors": [
+            {
+              "name": "Italian boat song",
+              "role": "Traditional source"
+            }
+          ]
+        },
+        {
+          "title": "Havah Nagilah",
+          "work_type": "Piano piece",
+          "sequence_no": 75,
+          "page_start": "206",
+          "contributors": [
+            {
+              "name": "Hebrew hora",
+              "role": "Traditional source"
+            }
+          ]
+        },
+        {
+          "title": "Danny Boy (Londonderry Air)",
+          "work_type": "Piano piece",
+          "sequence_no": 76,
+          "page_start": "208",
+          "contributors": [
+            {
+              "name": "Irish folk song",
+              "role": "Traditional source"
+            }
+          ]
+        },
+        {
+          "title": "Mexican Hat Dance",
+          "work_type": "Piano piece",
+          "sequence_no": 77,
+          "page_start": "210",
+          "contributors": [
+            {
+              "name": "Felice Partichala",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Dark Eyes",
+          "work_type": "Piano piece",
+          "sequence_no": 78,
+          "page_start": "212",
+          "contributors": [
+            {
+              "name": "Russian Gypsy song",
+              "role": "Traditional source"
+            }
+          ]
+        },
+        {
+          "title": "Finlandia",
+          "work_type": "Piano piece",
+          "sequence_no": 79,
+          "page_start": "214",
+          "contributors": [
+            {
+              "name": "Jan Sibelius",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Auld Lang Syne",
+          "work_type": "Piano piece",
+          "sequence_no": 80,
+          "page_start": "215",
+          "contributors": [
+            {
+              "name": "Scottish air",
+              "role": "Traditional source"
+            }
+          ]
+        },
+        {
+          "title": "Carnival of Venice",
+          "work_type": "Piano piece",
+          "sequence_no": 81,
+          "page_start": "216",
+          "contributors": [
+            {
+              "name": "Venetian melody",
+              "role": "Traditional source"
+            }
+          ]
+        },
+        {
+          "title": "I Love a Piano",
+          "work_type": "Piano piece",
+          "sequence_no": 82,
+          "page_start": "218",
+          "contributors": [
+            {
+              "name": "Irving Berlin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "A Pretty Girl Is Like a Melody",
+          "work_type": "Piano piece",
+          "sequence_no": 83,
+          "page_start": "220",
+          "contributors": [
+            {
+              "name": "Irving Berlin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "The Darktown Strutters' Ball",
+          "work_type": "Piano piece",
+          "sequence_no": 84,
+          "page_start": "222",
+          "contributors": [
+            {
+              "name": "Shelton Brooks",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "My Melancholy Baby",
+          "work_type": "Piano piece",
+          "sequence_no": 85,
+          "page_start": "223",
+          "contributors": [
+            {
+              "name": "Ernie Burnett",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Give My Regards to Broadway",
+          "work_type": "Piano piece",
+          "sequence_no": 86,
+          "page_start": "224",
+          "contributors": [
+            {
+              "name": "George M. Cohan",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "After You've Gone",
+          "work_type": "Piano piece",
+          "sequence_no": 87,
+          "page_start": "226",
+          "contributors": [
+            {
+              "name": "Creamer",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "St. Louis Blues",
+          "work_type": "Piano piece",
+          "sequence_no": 88,
+          "page_start": "227",
+          "contributors": [
+            {
+              "name": "W. C. Handy",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Look for the Silver Lining",
+          "work_type": "Piano piece",
+          "sequence_no": 89,
+          "page_start": "230",
+          "contributors": [
+            {
+              "name": "Jerome Kern",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Pretty Baby",
+          "work_type": "Piano piece",
+          "sequence_no": 90,
+          "page_start": "232",
+          "contributors": [
+            {
+              "name": "Gus Kahn",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "I'm Forever Blowing Bubbles",
+          "work_type": "Piano piece",
+          "sequence_no": 91,
+          "page_start": "233",
+          "contributors": [
+            {
+              "name": "Jaan Kenbrovin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "You Made Me Love You",
+          "work_type": "Piano piece",
+          "sequence_no": 92,
+          "page_start": "234",
+          "contributors": [
+            {
+              "name": "James V. Monaco",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Shine On Harvest Moon",
+          "work_type": "Piano piece",
+          "sequence_no": 93,
+          "page_start": "236",
+          "contributors": [
+            {
+              "name": "Jack Norworth",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Dallas Blues",
+          "work_type": "Piano piece",
+          "sequence_no": 94,
+          "page_start": "237",
+          "contributors": [
+            {
+              "name": "Hart A. Wand",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Moonlight Bay",
+          "work_type": "Piano piece",
+          "sequence_no": 95,
+          "page_start": "238",
+          "contributors": [
+            {
+              "name": "Percy Wenrich",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "In the Shade of the Old Apple Tree",
+          "work_type": "Piano piece",
+          "sequence_no": 96,
+          "page_start": "239",
+          "contributors": [
+            {
+              "name": "Harry H. Williams",
+              "role": "Composer"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Life of Mozart",
@@ -8856,6 +10983,887 @@
       ]
     },
     {
+      "title": "Modern Piano Pieces the Whole World Plays",
+      "media_category": "Book",
+      "item_type": "Anthology",
+      "publication_date": "1917",
+      "publisher": "D. Appleton and Company",
+      "shelf_row": "3",
+      "shelf_position": "Dining room",
+      "contributors": [
+        {
+          "name": "Albert E. Wier",
+          "role": "Editor"
+        }
+      ],
+      "contents": [
+        {
+          "title": "À l'Église",
+          "work_type": "Piano composition",
+          "sequence_no": 1,
+          "page_start": "148",
+          "contributors": [
+            {
+              "name": "Gabriel Pierné",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Alla Mazurka",
+          "work_type": "Piano composition",
+          "sequence_no": 2,
+          "page_start": "138",
+          "contributors": [
+            {
+              "name": "Nemerowsky",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "An Album Leaf",
+          "work_type": "Piano composition",
+          "sequence_no": 3,
+          "page_start": "246",
+          "contributors": [
+            {
+              "name": "Richard Wagner",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Angelus (Scènes Pittoresques)",
+          "work_type": "Piano composition",
+          "sequence_no": 4,
+          "page_start": "124",
+          "contributors": [
+            {
+              "name": "Jules Massenet",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "At Sunset",
+          "work_type": "Piano composition",
+          "sequence_no": 5,
+          "page_start": "75",
+          "contributors": [
+            {
+              "name": "Edward MacDowell",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Au Bord du Danube",
+          "work_type": "Piano composition",
+          "sequence_no": 6,
+          "page_start": "250",
+          "contributors": [
+            {
+              "name": "André Wormser",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Auf stillem Waldespfad",
+          "work_type": "Piano composition",
+          "sequence_no": 7,
+          "page_start": "219",
+          "contributors": [
+            {
+              "name": "Richard Strauss",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Au Matin",
+          "work_type": "Piano composition",
+          "sequence_no": 8,
+          "page_start": "58",
+          "contributors": [
+            {
+              "name": "Benjamin Godard",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Barcarolle, Op. 33",
+          "work_type": "Piano composition",
+          "sequence_no": 9,
+          "page_start": "96",
+          "contributors": [
+            {
+              "name": "Adolf Jensen",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Barcarolle, Op. 62, No. 4",
+          "work_type": "Piano composition",
+          "sequence_no": 10,
+          "page_start": "194",
+          "contributors": [
+            {
+              "name": "Xaver Scharwenka",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Beim Kränzewinden",
+          "work_type": "Piano composition",
+          "sequence_no": 11,
+          "page_start": "204",
+          "contributors": [
+            {
+              "name": "Isidor Seiss",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Berceuse",
+          "work_type": "Piano composition",
+          "sequence_no": 12,
+          "page_start": "39",
+          "contributors": [
+            {
+              "name": "August Delbrück",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Berceuse, Op. 16, No. 1",
+          "work_type": "Piano composition",
+          "sequence_no": 13,
+          "page_start": "244",
+          "contributors": [
+            {
+              "name": "Alexander von Fielitz",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Berceuse, Op. 26, No. 7",
+          "work_type": "Piano composition",
+          "sequence_no": 14,
+          "page_start": "200",
+          "contributors": [
+            {
+              "name": "Eduard Schütt",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Canzonetta",
+          "work_type": "Piano composition",
+          "sequence_no": 15,
+          "page_start": "32",
+          "contributors": [
+            {
+              "name": "César Cui",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Chanson Triste",
+          "work_type": "Piano composition",
+          "sequence_no": 16,
+          "page_start": "236",
+          "contributors": [
+            {
+              "name": "Pyotr Ilyich Tchaikovsky",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Characteristique",
+          "work_type": "Piano composition",
+          "sequence_no": 17,
+          "page_start": "216",
+          "contributors": [
+            {
+              "name": "Christian Sinding",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Consolation, Op. 19, No. 6",
+          "work_type": "Piano composition",
+          "sequence_no": 18,
+          "page_start": "112",
+          "contributors": [
+            {
+              "name": "Theodor Leschetizky",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Consolation No. 2",
+          "work_type": "Piano composition",
+          "sequence_no": 19,
+          "page_start": "120",
+          "contributors": [
+            {
+              "name": "Franz Liszt",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Cradle Song",
+          "work_type": "Piano composition",
+          "sequence_no": 20,
+          "page_start": "90",
+          "contributors": [
+            {
+              "name": "Alexander Ilyinsky",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Crescendo",
+          "work_type": "Piano composition",
+          "sequence_no": 21,
+          "page_start": "162",
+          "contributors": [
+            {
+              "name": "Eduard Lassen",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Élégie, Op. 1, No. 3",
+          "work_type": "Piano composition",
+          "sequence_no": 22,
+          "page_start": "254",
+          "contributors": [
+            {
+              "name": "Vladimir Youferoff",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "En berçant",
+          "work_type": "Piano composition",
+          "sequence_no": 23,
+          "page_start": "214",
+          "contributors": [
+            {
+              "name": "Eduard Schütt",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Erotikon",
+          "work_type": "Piano composition",
+          "sequence_no": 24,
+          "page_start": "70",
+          "contributors": [
+            {
+              "name": "Edvard Grieg",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Gavotte Moderne",
+          "work_type": "Piano composition",
+          "sequence_no": 25,
+          "page_start": "226",
+          "contributors": [
+            {
+              "name": "Berthold Tours",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Gipsy Dance, Op. 20",
+          "work_type": "Piano composition",
+          "sequence_no": 26,
+          "page_start": "190",
+          "contributors": [
+            {
+              "name": "Pablo de Sarasate",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "La Gondola",
+          "work_type": "Piano composition",
+          "sequence_no": 27,
+          "page_start": "82",
+          "contributors": [
+            {
+              "name": "Adolf von Henselt",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Habanera",
+          "work_type": "Piano composition",
+          "sequence_no": 28,
+          "page_start": "20",
+          "contributors": [
+            {
+              "name": "Emmanuel Chabrier",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Humoreske, Op. 10, No. 2",
+          "work_type": "Piano composition",
+          "sequence_no": 29,
+          "page_start": "232",
+          "contributors": [
+            {
+              "name": "Pyotr Ilyich Tchaikovsky",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "In the Wood",
+          "work_type": "Piano composition",
+          "sequence_no": 30,
+          "page_start": "152",
+          "contributors": [
+            {
+              "name": "Vincenzo Poldini",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Klavierstück",
+          "work_type": "Piano composition",
+          "sequence_no": 31,
+          "page_start": "92",
+          "contributors": [
+            {
+              "name": "Salomon Jadassohn",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Liebestraum",
+          "work_type": "Piano composition",
+          "sequence_no": 32,
+          "page_start": "114",
+          "contributors": [
+            {
+              "name": "Franz Liszt",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Lullaby",
+          "work_type": "Piano composition",
+          "sequence_no": 33,
+          "page_start": "106",
+          "contributors": [
+            {
+              "name": "Halfdan Kjerulf",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Madrigal",
+          "work_type": "Piano composition",
+          "sequence_no": 34,
+          "page_start": "108",
+          "contributors": [
+            {
+              "name": "Théodore Lack",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Mazurka, Op. 21, No. 1",
+          "work_type": "Piano composition",
+          "sequence_no": 35,
+          "page_start": "176",
+          "contributors": [
+            {
+              "name": "Camille Saint-Saëns",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Mélodie, Op. 18, No. 1",
+          "work_type": "Piano composition",
+          "sequence_no": 36,
+          "page_start": "135",
+          "contributors": [
+            {
+              "name": "Moritz Moszkowski",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Mélodie, Op. 16, No. 2",
+          "work_type": "Piano composition",
+          "sequence_no": 37,
+          "page_start": "144",
+          "contributors": [
+            {
+              "name": "Ignacy Jan Paderewski",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Menuett, Op. 33",
+          "work_type": "Piano composition",
+          "sequence_no": 38,
+          "page_start": "100",
+          "contributors": [
+            {
+              "name": "Adolf Jensen",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Moment Musical",
+          "work_type": "Piano composition",
+          "sequence_no": 39,
+          "page_start": "181",
+          "contributors": [
+            {
+              "name": "Philipp Scharwenka",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Murmuring Brook",
+          "work_type": "Piano composition",
+          "sequence_no": 40,
+          "page_start": "154",
+          "contributors": [
+            {
+              "name": "Vincenzo Poldini",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Nachtstück, Op. 23, No. 4",
+          "work_type": "Piano composition",
+          "sequence_no": 41,
+          "page_start": "196",
+          "contributors": [
+            {
+              "name": "Robert Schumann",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Nocturne",
+          "work_type": "Piano composition",
+          "sequence_no": 42,
+          "page_start": "8",
+          "contributors": [
+            {
+              "name": "Alexander Borodin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Papillon",
+          "work_type": "Piano composition",
+          "sequence_no": 43,
+          "page_start": "72",
+          "contributors": [
+            {
+              "name": "Edvard Grieg",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Petite Mazurka",
+          "work_type": "Piano composition",
+          "sequence_no": 44,
+          "page_start": "184",
+          "contributors": [
+            {
+              "name": "Vasily Sapellnikoff",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Petite Valse, Op. 10, No. 2",
+          "work_type": "Piano composition",
+          "sequence_no": 45,
+          "page_start": "104",
+          "contributors": [
+            {
+              "name": "Genari Karganoff",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Près de l'Eau",
+          "work_type": "Piano composition",
+          "sequence_no": 46,
+          "page_start": "6",
+          "contributors": [
+            {
+              "name": "Felix Blumenfeld",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Rêverie",
+          "work_type": "Piano composition",
+          "sequence_no": 47,
+          "page_start": "34",
+          "contributors": [
+            {
+              "name": "Claude Debussy",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Rêverie",
+          "work_type": "Piano composition",
+          "sequence_no": 48,
+          "page_start": "86",
+          "contributors": [
+            {
+              "name": "Arthur Hervey",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Rêverie, Op. 34, No. 5",
+          "work_type": "Piano composition",
+          "sequence_no": 49,
+          "page_start": "210",
+          "contributors": [
+            {
+              "name": "Eduard Schütt",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Romance",
+          "work_type": "Piano composition",
+          "sequence_no": 50,
+          "page_start": "156",
+          "contributors": [
+            {
+              "name": "Sergei Rachmaninoff",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Romance, Op. 2, No. 2",
+          "work_type": "Piano composition",
+          "sequence_no": 51,
+          "page_start": "158",
+          "contributors": [
+            {
+              "name": "Joachim Raff",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Romance, Op. 44, No. 1",
+          "work_type": "Piano composition",
+          "sequence_no": 52,
+          "page_start": "165",
+          "contributors": [
+            {
+              "name": "Anton Rubinstein",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Romance, Op. 5",
+          "work_type": "Piano composition",
+          "sequence_no": 53,
+          "page_start": "239",
+          "contributors": [
+            {
+              "name": "Pyotr Ilyich Tchaikovsky",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Romance sans paroles",
+          "work_type": "Piano composition",
+          "sequence_no": 54,
+          "page_start": "55",
+          "contributors": [
+            {
+              "name": "Gabriel Fauré",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Scotch Poem",
+          "work_type": "Piano composition",
+          "sequence_no": 55,
+          "page_start": "78",
+          "contributors": [
+            {
+              "name": "Edward MacDowell",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Sérénade",
+          "work_type": "Piano composition",
+          "sequence_no": 56,
+          "page_start": "11",
+          "contributors": [
+            {
+              "name": "Alexander Borodin",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Sérénade",
+          "work_type": "Piano composition",
+          "sequence_no": 57,
+          "page_start": "142",
+          "contributors": [
+            {
+              "name": "Ole Olsen",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Silhouette, Op. 8, No. 2",
+          "work_type": "Piano composition",
+          "sequence_no": 58,
+          "page_start": "47",
+          "contributors": [
+            {
+              "name": "Antonín Dvořák",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Silhouette, Op. 8, No. 4",
+          "work_type": "Piano composition",
+          "sequence_no": 59,
+          "page_start": "52",
+          "contributors": [
+            {
+              "name": "Antonín Dvořák",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Song Without Words",
+          "work_type": "Piano composition",
+          "sequence_no": 60,
+          "page_start": "172",
+          "contributors": [
+            {
+              "name": "Camille Saint-Saëns",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Souvenir",
+          "work_type": "Piano composition",
+          "sequence_no": 61,
+          "page_start": "42",
+          "contributors": [
+            {
+              "name": "František Drdla",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Souvenir, Op. 10, No. 1",
+          "work_type": "Piano composition",
+          "sequence_no": 62,
+          "page_start": "102",
+          "contributors": [
+            {
+              "name": "Genari Karganoff",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Spanish Dance, Op. 12, No. 1",
+          "work_type": "Piano composition",
+          "sequence_no": 63,
+          "page_start": "132",
+          "contributors": [
+            {
+              "name": "Moritz Moszkowski",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Spring Song",
+          "work_type": "Piano composition",
+          "sequence_no": 64,
+          "page_start": "128",
+          "contributors": [
+            {
+              "name": "Gustav Merkel",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Les Sylvains",
+          "work_type": "Piano composition",
+          "sequence_no": 65,
+          "page_start": "26",
+          "contributors": [
+            {
+              "name": "Cécile Chaminade",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Toreador et Andalouse",
+          "work_type": "Piano composition",
+          "sequence_no": 66,
+          "page_start": "168",
+          "contributors": [
+            {
+              "name": "Anton Rubinstein",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Träumerei",
+          "work_type": "Piano composition",
+          "sequence_no": 67,
+          "page_start": "224",
+          "contributors": [
+            {
+              "name": "Richard Strauss",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Valse Gracieuse",
+          "work_type": "Piano composition",
+          "sequence_no": 68,
+          "page_start": "48",
+          "contributors": [
+            {
+              "name": "Antonín Dvořák",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Valse Lente, Op. 12, No. 2",
+          "work_type": "Piano composition",
+          "sequence_no": 69,
+          "page_start": "206",
+          "contributors": [
+            {
+              "name": "Eduard Schütt",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Villanesca",
+          "work_type": "Piano composition",
+          "sequence_no": 70,
+          "page_start": "64",
+          "contributors": [
+            {
+              "name": "Enrique Granados",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Waltzes, Op. 39 (Selected)",
+          "work_type": "Piano composition",
+          "sequence_no": 71,
+          "page_start": "14",
+          "contributors": [
+            {
+              "name": "Johannes Brahms",
+              "role": "Composer"
+            }
+          ]
+        },
+        {
+          "title": "Warum?, Op. 12, No. 3",
+          "work_type": "Piano composition",
+          "sequence_no": 72,
+          "page_start": "198",
+          "contributors": [
+            {
+              "name": "Robert Schumann",
+              "role": "Composer"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "Montaigne",
       "media_category": "Book",
       "item_type": "Anthology",
@@ -9002,6 +12010,8 @@
       "identifier": "4-11-106011-0",
       "language": "Japanese",
       "set_name": "Zen-on piano library",
+      "shelf_row": "3",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Wolfgang Amadeus Mozart",
@@ -9026,6 +12036,8 @@
       "identifier": "4-11-106012-9",
       "language": "Japanese",
       "set_name": "Zen-on piano library",
+      "shelf_row": "3",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Wolfgang Amadeus Mozart",
@@ -12189,6 +15201,8 @@
       "publisher": "Hal Leonard",
       "set_name": "Schirmer's Library of Musical Classics",
       "volume_number": 434.0,
+      "shelf_row": "3",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Aloys Schmitt",
@@ -48204,6 +51218,8 @@
       "identifier": "4-11-112030-X",
       "language": "Japanese",
       "set_name": "Zen-on piano library",
+      "shelf_row": "3",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Pyotr Ilyich Tchaikovsky",
@@ -48227,6 +51243,8 @@
       "publisher": "Hal Leonard",
       "set_name": "Schirmer's Library of Musical Classics",
       "volume_number": 1045.0,
+      "shelf_row": "3",
+      "shelf_position": "Dining room",
       "contributors": [
         {
           "name": "Pyotr Ilyich Tchaikovsky",
@@ -48470,6 +51488,29 @@
       "contributors": [
         {
           "name": "Tobie Meyer-Fong",
+          "role": "Author"
+        }
+      ],
+      "contents": []
+    },
+    {
+      "title": "Who's Who in Mozart's Operas",
+      "subtitle": "From Alfonso to Zerlina",
+      "media_category": "Book",
+      "item_type": "Single work",
+      "publication_date": "March 1987",
+      "publisher": "Schirmer Books",
+      "identifier": "0-02-873380-0",
+      "language": "English",
+      "shelf_row": "2",
+      "shelf_position": "Dining room",
+      "contributors": [
+        {
+          "name": "Joachim Kaiser",
+          "role": "Author"
+        },
+        {
+          "name": "Charles Kessler",
           "role": "Author"
         }
       ],
